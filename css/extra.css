@@ -1,0 +1,27 @@
+.md-header {
+    border-bottom: 3px solid #b474b4
+}
+
+.md-header__button.md-logo img {
+    height: 2.1rem !important;
+}
+
+.md-footer {
+    display: none;
+}
+
+.md-header__topic {
+    display: none;
+}
+
+.md-sidebar__secondary {
+    display: none !important;
+}
+
+.md-content {
+	margin-left: 3rem;
+}
+
+.md-nav__title {
+  color: #000000 !important;
+}
