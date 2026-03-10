@@ -14,27 +14,28 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Using your box:
-      - Whats in the box?: tba.md
-      - How to use VR?: tba.md
-      - Setting up the guardian?: tba.md
-      - Updating your box: tba.md
+      - Whats in the box?: whats-in-the-box.md
+      - How to use VR?: how-to-use-vr.md
+      - Setting up the guardian?: guardian-setup.md
+      - Updating your box: updating-your-box.md
   - Training in VR:
-      - Using the spectator: tba.md 
-      - Switching students: tba.md  
-      - Changing languages:  tba.md 
+      - Using the spectator: using-the-spectator.md
+      - Switching students: switching-students.md
+      - Changing languages:  changing-language.md
   - Training Portal:
-      - Setting up students: tba.md 
-      - Setting up groups: tba.md 
-      - Viewing results: tba.md 
-      - Using lesson plans: tba.md 
+      - Setting up students: setting-up-students.md 
+      - Setting up groups: setting-up-groups.md 
+      - Viewing results: viewing-results.md 
+      - Using lesson plans: using-lesson-plans.md 
   - Self Installation:
-      - Installing the Launcher: tba.md 
-      - Updating your headset: tba.md 
-      - Adding your own devices: tba.md 
+      - Installing the Launcher: installing-the-launcher.md
+      - Updating your headset: updating-your-headset.md
+      - Adding your own devices: adding-your-own-devices.md 
   - Troubleshooting:
       - Resetting play area: tba.md 
       - Restarting your headset: tba.md 
       - No WiFi: tba.md 
+      - Controllers not working: tba.md 
       - Need support?: tba.md 
       
       
