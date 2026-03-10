@@ -1,0 +1,12 @@
+site_name: Training Workx Documentation
+
+theme:
+  name: material
+  
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Shared:
+      - Charging: shared/charging.md
+  - Hardware:
+      - WiFi Setup: box/wifi.md
