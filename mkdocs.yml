@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: Training Workx Help Center
 
 theme:
   name: material
@@ -13,8 +13,30 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Shared:
-      - Charging: shared/charging.md
-  - Hardware:
-      - WiFi Setup: box/wifi.md
+  - Using your box:
+      - Whats in the box?: tba.md
+      - How to use VR?: tba.md
+      - Setting up the guardian?: tba.md
+      - Updating your box: tba.md
+  - Training in VR:
+      - Using the spectator: tba.md 
+      - Switching students: tba.md  
+      - Changing languages:  tba.md 
+  - Training Portal:
+      - Setting up students: tba.md 
+      - Setting up groups: tba.md 
+      - Viewing results: tba.md 
+      - Using lesson plans: tba.md 
+  - Self Installation:
+      - Installing the Launcher: tba.md 
+      - Updating your headset: tba.md 
+      - Adding your own devices: tba.md 
+  - Troubleshooting:
+      - Resetting play area: tba.md 
+      - Restarting your headset: tba.md 
+      - No WiFi: tba.md 
+      - Need support?: tba.md 
+      
+      
+      
       
