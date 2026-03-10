@@ -1,8 +1,15 @@
-site_name: Training Workx Documentation
+site_name: Documentation
 
 theme:
   name: material
-  
+  logo: assets/logo.png
+  favicon: assets/icon.png
+  palette:
+    primary: white
+    
+extra_css:
+  - css/extra.css
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
@@ -10,3 +17,4 @@ nav:
       - Charging: shared/charging.md
   - Hardware:
       - WiFi Setup: box/wifi.md
+      
