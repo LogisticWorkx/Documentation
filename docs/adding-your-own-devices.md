@@ -31,7 +31,7 @@ After registering the headset, you can install the training software.
 
 The installation process may take a few minutes.
 
-![Installing the software](../assets/example.png)
+![__________________Installing the software__________________](../assets/example.png)
 
 ---
 
@@ -46,7 +46,7 @@ When the installation is complete:
 
 The headset will now be linked to your account and ready to use for training.
 
-![Setup screen](../assets/example.png)
+![__________________Setup screen__________________](../assets/example.png)
 
 ---
 

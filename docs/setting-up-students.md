@@ -24,7 +24,7 @@ This number identifies the student during training.
 ## 2. Create a class
 
 Classes allow multiple students to use the same headset and switch between users.
-   See [Setting up groups](setting-up-groups.md).
+   See [__________________Setting up groups__________________](setting-up-groups.md).
 
 ---
 

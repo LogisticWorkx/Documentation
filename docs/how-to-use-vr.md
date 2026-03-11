@@ -25,6 +25,8 @@ This prevents the controllers from falling during the training.
 4. Tighten the dial on the back until the headset sits comfortably.
 5. Adjust the top strap if necessary so the headset stays stable.
 
+![__________________Head strap dial turning__________________](../assets/example.png)
+
 ---
 
 ## 3. Adjust the image

@@ -4,7 +4,7 @@ Before starting the training, it is important to understand which components are
 
 The **SOFIA in a Box** solution contains everything needed to run and supervise a VR cleaning training session.
 
-![Whole new box image with new components](../assets/example.png)
+![__________________Whole new box image with new components__________________](../assets/example.png)
 
 Below is an overview of all components located inside the case.
 
@@ -32,7 +32,7 @@ This modem provides the internet connection needed for the system to work.
 The modem uses **mobile reception**, so the case must be used in a location with sufficient signal.
 
 If there is no connection or the training cannot connect to the headset, check the troubleshooting section.<br />
-See: ➡ [Troubleshooting – No Wi-Fi](no-wifi.md)
+See: ➡ [__________________Troubleshooting – No Wi-Fi__________________](no-wifi.md)
 
 ### HDMI Input
 An external monitor can be connected using the HDMI input.  
