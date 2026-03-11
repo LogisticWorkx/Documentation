@@ -3,7 +3,7 @@
 Groups allow multiple students to train using the same VR headset.  
 Students within the same group can switch between users during training.
 
-Groups are created and managed in the **Logistic Workx portal**.
+Groups are created and managed in the **Training Workx portal**.
 
 portal.logisticworkx.com
 
@@ -11,7 +11,7 @@ portal.logisticworkx.com
 
 ## Creating a group
 
-1. Log in to the **Logistic Workx portal**.
+1. Log in to the **Training Workx portal**.
 2. Go to **Training → Classes**.
 3. Click **New Class**.
 4. Enter a name for the group.
@@ -19,6 +19,8 @@ portal.logisticworkx.com
 6. Save the group.
 
 Choose a clear name so trainers can easily identify the correct group.
+
+<img src="../assets/selecting-students-for-class.png" width="500">
 
 ---
 

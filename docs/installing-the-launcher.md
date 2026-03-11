@@ -21,11 +21,13 @@ The Wi-Fi network must allow both the headset and the computer to connect to eac
 
 ## Download the Launcher
 
-1. Go to the **Logistic Workx portal**  
+1. Go to the **Training Workx portal**  
 2. Navigate to **Administration → Downloads**
 3. Download the **Launcher Installer**
 
 You will also find your **company access code** on this page.
+
+<img src="../assets/portal-download.png" width="1000">
 
 ---
 
@@ -48,6 +50,8 @@ The first time you open the Launcher, it will ask for an **access code**.
 3. Confirm.
 
 The Launcher will now connect to your company account and automatically install the **Spectator software**.
+
+<img src="../assets/portal-code.png" width="1000">
 
 ---
 

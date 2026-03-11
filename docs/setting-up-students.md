@@ -1,6 +1,6 @@
 # Setting up students
 
-Before students can start training, they must first be created in the **Logistic Workx portal**.  
+Before students can start training, they must first be created in the **Training Workx portal**.  
 This allows the system to track training progress and results for each student.
 
 You can access the portal at:
@@ -24,12 +24,7 @@ This number identifies the student during training.
 ## 2. Create a class
 
 Classes allow multiple students to use the same headset and switch between users.
-
-1. Go to **Training → Classes**.
-2. Click **New Class**.
-3. Enter a name for the class.
-4. Select the students that belong to this class.
-5. Save the class.
+   See [Setting up groups](setting-up-groups.md).
 
 ---
 
@@ -42,6 +37,9 @@ To allow students to switch users inside the VR training, you must link a headse
 3. Choose the class that will train on that headset.
 
 Once connected, students from that class will appear inside the VR training and can be selected during the session.
+
+
+<img src="../assets/connecting-to-class.png" width="800">
 
 ---
 

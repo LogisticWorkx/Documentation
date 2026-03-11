@@ -27,6 +27,8 @@ When the headset starts for the first time in a new location, it will ask you to
 
 This ensures the VR environment aligns correctly with the real world.
 
+<img src="../assets/guardian-ground.jpg" width="500">
+
 ---
 
 ## 2. Draw the Guardian boundary
@@ -48,3 +50,5 @@ After drawing the boundary, confirm the setup in the headset.
 If the space is too small or incorrectly drawn, you can simply redraw the Guardian.
 
 Once confirmed, the user can safely start the VR training.
+
+<img src="../assets/boundary.jpg" width="500">

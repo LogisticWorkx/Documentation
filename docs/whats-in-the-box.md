@@ -6,17 +6,19 @@ The **SOFIA in a Box** solution contains everything needed to run and supervise 
 
 Below is an overview of all components located inside the case.
 
-![SOFIA Box Overview](../images/whatsinthebox.png)
-
 ## Components
 
 ### Touchscreen
 The built-in touchscreen is used to control the system inside the case.  
 From here you can start the training software and operate the spectator interface to monitor the VR headset.
 
+<img src="../assets/touchscreen.png" width="500">
+
 ### VR Headset
 The VR headset is used by the trainee to follow the cleaning training in virtual reality.  
 It provides the immersive training environment and allows interaction with the training scenarios.
+
+<img src="../assets/headset.png" width="500">
 
 ### Controllers
 The controllers are used by the trainee to interact with objects inside the VR training.  
@@ -38,9 +40,13 @@ See: ➡ [Troubleshooting – No Wi-Fi](no-wifi.md)
 An external monitor can be connected using the HDMI input.  
 This allows other people in the room to watch the training session on a larger screen.
 
+<img src="../assets/hdmi.png" width="500">
+
 ### Power Cable
 The power cable supplies electricity to the system.  
 Once connected to a power outlet, the computer and touchscreen inside the case will start automatically.
+
+<img src="../assets/plug.png" width="500">
 
 ---
 

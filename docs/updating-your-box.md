@@ -2,43 +2,48 @@
 
 The system can be updated to receive the latest improvements and training content.
 
-Updates are installed using the **Launcher**, which opens automatically when the case starts.
-
-Keeping the system up to date ensures the training and spectator software continue to work correctly.
+Updates are managed through the **Launcher**, which opens automatically when the case starts.
 
 ---
 
-## Check for updates
+## Downloading the update
 
-1. Start the case as described in the **Starting the case** section.
-2. The **Launcher** will open automatically.
-3. Look for the **Update** button in the top-right corner.
+Before an update can be installed, the new version must first be **downloaded**.
 
-The update button will only appear if a new update is available.
+This download happens **automatically in the background** when the case is connected to the internet.
+
+Depending on the internet connection, downloading the update can take **up to one hour**.
+
+You can only install the update **after the download has finished**.
 
 ---
 
-## Install the update
+## Installing the update
 
-1. Open the **Update** page from the Launcher.
+Once the update has finished downloading:
+
+1. Click on the **Update** in the Launcher.
 2. Make sure the **VR headset is turned on**.
 3. Connect the headset to the case using the **USB-C cable inside the case**.
-4. Start the update.
+4. Press **Update**.
 
 The system will update both the **VR headset** and the **Spectator software**.
 
+
+<img src="../assets/updating.png" width="600">
+
 ---
 
-## Update duration
+## Installation time
 
-Updating the system usually takes **about 10 minutes**.
+Installing the update usually takes **around 10 minutes**.
 
-Make sure the system stays powered during the update process.
+Make sure the headset stays connected during the update process.
 
 ---
 
 ## Important
 
-Both the **headset and spectator must always be updated together**.
+The **headset and Spectator must always be updated together**.
 
-Using different versions may cause the training or connection to stop working.
+Using different versions may cause connection problems.

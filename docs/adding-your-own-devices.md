@@ -1,6 +1,6 @@
 # Adding your own devices
 
-If you want to use your own VR headset instead of one supplied by Logistic Workx, you must first register the device in the portal.
+If you want to use your own VR headset instead of one supplied by Training Workx, you must first register the device in the portal.
 
 After registering the device, you can install the training software using the Launcher.
 
@@ -8,7 +8,7 @@ After registering the device, you can install the training software using the La
 
 ## Registering a device
 
-1. Log in to the **Logistic Workx portal**.
+1. Log in to the **Training Workx portal**.
 2. Go to **Training → Devices**.
 3. Click **Register own device**.
 4. Add the new headset.

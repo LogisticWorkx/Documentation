@@ -3,7 +3,7 @@
 Lesson plans allow trainers to organize which training modules students should complete.  
 They make it easier to guide students through a structured training program.
 
-Lesson plans are managed through the **Logistic Workx portal**.
+Lesson plans are managed through the **Training Workx portal**.
 
 portal.logisticworkx.com
 
@@ -11,7 +11,7 @@ portal.logisticworkx.com
 
 ## Creating a lesson plan
 
-1. Log in to the **Logistic Workx portal**.
+1. Log in to the **Training Workx portal**.
 2. Go to **Training → Lesson Plans**.
 3. Click **New Lesson Plan**.
 4. Enter a name for the lesson plan.

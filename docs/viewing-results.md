@@ -1,6 +1,6 @@
 # Viewing results
 
-The Logistic Workx portal allows trainers to view the progress and results of each student.
+The Training Workx portal allows trainers to view the progress and results of each student.
 
 Results show how often a student trained, which modules were completed, and the scores achieved.
 
@@ -12,12 +12,14 @@ portal.logisticworkx.com
 
 ## Viewing student progress
 
-1. Log in to the **Logistic Workx portal**.
+1. Log in to the **Training Workx portal**.
 2. Go to **Training → Students**.
 3. Find the student you want to view.
 4. Click **View Modules**.
 
 You will now see which modules the student has completed and their current progress.
+
+<img src="../assets/view-modules.png" width="500">
 
 ---
 
@@ -42,6 +44,7 @@ The results page shows:
 If needed, you can export the results for further analysis.
 
 1. Go to the **Students** page.
+2. Press the 3 dots next to the green New student button.
 2. Export the results as a **.csv file**.
 
 This file can be opened in spreadsheet software for reporting or record keeping.
