@@ -12,11 +12,11 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
   - Using your box:
       - Whats in the box?: whats-in-the-box.md
-      - How to use VR?: how-to-use-vr.md
+      - Starting the box: starting-the-box.md
       - Setting up the guardian?: guardian-setup.md
+      - How to use VR?: how-to-use-vr.md
       - Updating your box: updating-your-box.md
   - Training in VR:
       - Using the spectator: using-the-spectator.md
