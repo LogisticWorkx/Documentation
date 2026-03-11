@@ -16,6 +16,8 @@ Students are managed through the **online portal** and can then be selected insi
 
 The selected student will now be active for the training session.
 
+![Student selection screen](../assets/example.png)
+
 ---
 
 ## Managing students as a trainer
@@ -25,6 +27,7 @@ Before students can be selected in VR, they must be added by the trainer.
 1. Go to the **online portal**.
 2. Add the students to the correct **class or group**.
 3. Select which class is training on the headset.
+   See [Setting up groups](setting-up-students.md).
 
 Once this is done, trainees can switch between students inside the training.
 

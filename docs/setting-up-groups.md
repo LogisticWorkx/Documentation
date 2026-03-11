@@ -33,6 +33,8 @@ To allow students from a group to train on a headset, the headset must be linked
 3. Choose the group that will train on that headset.
 4. Save the changes.
 
+<img src="../assets/select-class.png" width="500">
+
 ---
 
 ## Switching students during training

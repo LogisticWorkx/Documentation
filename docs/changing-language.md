@@ -16,6 +16,8 @@ The selected language will be used for the instructions and interface inside the
 
 The training will now continue in the selected language.
 
+![Language selection in VR](../assets/example.png)
+
 ---
 
 ## Changing the language using the Spectator
@@ -26,5 +28,7 @@ Trainers can also change the language from the **Spectator**.
 2. Connect to the VR headset.
 3. Open the **Language** option in the controls.
 4. Select the desired language.
+
+![Language selection in spectator](../assets/example.png)
 
 The language will update immediately for the trainee in VR.

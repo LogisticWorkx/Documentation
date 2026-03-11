@@ -13,6 +13,8 @@ If the **Spectator** or the **headset** shows a **No Wi-Fi** popup, follow the s
 
 If it is not connected, select **VRCase** and connect to it.
 
+![Clean image of wifi icon on case in taskbar](../assets/example.png)
+
 ---
 
 ## If the popup appears in the headset
@@ -24,6 +26,8 @@ If it is not connected, select **VRCase** and connect to it.
 5. Make sure the headset is connected to the **VRCase** network.
 
 If it is not connected, select **VRCase** and connect to it.
+
+<img src="../assets/wifi-in-headset.png" width="1000">
 
 ---
 

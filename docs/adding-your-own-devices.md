@@ -15,6 +15,8 @@ After registering the device, you can install the training software using the La
 
 The headset will now appear in your device list.
 
+<img src="../assets/registering-device.png" width="500">
+
 ---
 
 ## Installing the software
@@ -29,6 +31,8 @@ After registering the headset, you can install the training software.
 
 The installation process may take a few minutes.
 
+![Installing the software](../assets/example.png)
+
 ---
 
 ## Identifying the headset
@@ -41,6 +45,8 @@ When the installation is complete:
 4. Select the correct name for your device.
 
 The headset will now be linked to your account and ready to use for training.
+
+![Setup screen](../assets/example.png)
 
 ---
 

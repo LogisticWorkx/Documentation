@@ -33,7 +33,6 @@ If the headset does not respond:
 
 Restarting the headset can help if:
 
-- The training does not start
 - The controllers are not responding
 - The headset tracking is incorrect
 - The headset becomes slow or unresponsive

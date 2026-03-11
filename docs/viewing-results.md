@@ -19,7 +19,7 @@ portal.logisticworkx.com
 
 You will now see which modules the student has completed and their current progress.
 
-<img src="../assets/view-modules.png" width="500">
+<img src="../assets/view-modules.png" width="700">
 
 ---
 
