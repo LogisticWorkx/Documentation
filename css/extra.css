@@ -20,8 +20,13 @@
 
 @media (min-width: 1024px) {
     .md-content {
-        margin-left: 3rem;
+        margin-left: 4rem;
+        max-width: 750px;
     }
+}
+
+.md-typeset h1 {
+    text-align: center;
 }
 
 .md-nav__title {
@@ -36,4 +41,8 @@
 .md-nav__item--nested .md-nav__item {
 	padding-top: 0.0rem !important;
 	padding-bottom: 0.0rem !important;
+}
+
+:root, [data-md-color-scheme="default"] {
+  --md-default-fg-color--light: #000000;
 }
