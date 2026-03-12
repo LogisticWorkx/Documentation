@@ -49,6 +49,12 @@ Once both the **case** and the **headset** are connected to **VRCase**, start th
 
 If using your own network also isn't an option, you can try using the headset's offline mode. This will allow you to see what the user is doing without an internet connection. Keep in mind that this is only a backup solution, and that this means you won't be able to connect to your students and results data when using the offline mode.
 
+You can force offline mode by selecting **Settings** on the bottom left and then **Force offline mode** on the right.
+
+<div style="text-align: center">
+    <img src="/assets/offline-mode.png" style="width: 500px;">
+</div>
+
 If you get stuck with persistent internet connections, please let us know by contacting support@cleaningworkx.com and we will help you get it fixed.
 
 ---
