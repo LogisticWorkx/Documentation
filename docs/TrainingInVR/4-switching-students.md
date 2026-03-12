@@ -16,7 +16,7 @@ Students are managed through the **online portal** and can then be selected insi
 
 The selected student will now be active for the training session.
 
-![__________________Student selection screen__________________](../assets/example.png)
+![__________________Student selection screen__________________](/assets/example.png)
 
 ---
 

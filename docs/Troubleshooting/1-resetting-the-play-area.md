@@ -22,7 +22,7 @@ This can be done directly from the **Meta Quest menu** inside the headset.
 4. Follow the instructions in the headset.  
    See [Setting up the play area](../UsingYourBox/4-guardian-setup.md).
 
-<img src="../assets/boundary.png" width="600">
+<img src="/assets/boundary.png" width="600">
 
 ---
 

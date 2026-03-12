@@ -5,7 +5,7 @@ Our Training Boxes contain everything needed to run and supervise a VR cleaning 
 Below is an overview of all components located inside the case.
 
 <div style="text-align: center">
-<img src="../assets/box-with-components.png" alt="Removing the Quest 3 controller battery cover" style="width: 70%;">
+<img src="/assets/box-with-components.png" style="width: 70%;">
 </div>
 
 

@@ -27,7 +27,7 @@ Before starting the update, make sure that:
 
 The system will update the headset and Spectator automatically.
 
-<img src="../assets/updating.png" width="600">
+<img src="/assets/updating.png" width="600">
 
 ---
 

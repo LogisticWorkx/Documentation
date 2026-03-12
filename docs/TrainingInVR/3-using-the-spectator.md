@@ -14,7 +14,7 @@ With the Spectator you can follow the trainee live and control parts of the trai
 
 You will see a list of available VR headsets.
 
-![__________________Launcher start spectator screen__________________](../assets/example.png)
+![__________________Launcher start spectator screen__________________](/assets/example.png)
 
 
 ---
@@ -26,7 +26,7 @@ You will see a list of available VR headsets.
 
 Once connected, the screen will show the **live view from the VR headset**.
 
-![__________________Device list on spectator__________________](../assets/example.png)
+![__________________Device list on spectator__________________](/assets/example.png)
 
 ---
 
@@ -44,7 +44,7 @@ For example you can:
 
 This allows the trainer to guide the training session without interrupting the trainee.
 
-![__________________Spectator side bar__________________](../assets/example.png)
+![__________________Spectator side bar__________________](/assets/example.png)
 
 ---
 

@@ -39,7 +39,7 @@ To allow students to switch users inside the VR training, you must link a headse
 Once connected, students from that class will appear inside the VR training and can be selected during the session.
 
 
-<img src="../assets/connecting-to-class.png" width="800">
+<img src="/assets/connecting-to-class.png" width="800">
 
 ---
 

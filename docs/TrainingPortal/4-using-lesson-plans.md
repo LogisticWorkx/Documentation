@@ -18,8 +18,8 @@ portal.logisticworkx.com
 5. Select the modules you want to include.
 6. Save the lesson plan.
 
-<img src="../assets/lessonplan.png" width="800">
-<img src="../assets/edit-lessonplan.png" width="800">
+<img src="/assets/lessonplan.png" width="800">
+<img src="/assets/edit-lessonplan.png" width="800">
 ---
 
 ## Assigning a lesson plan

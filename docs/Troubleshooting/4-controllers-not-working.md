@@ -24,7 +24,7 @@ Most controller issues are caused by **empty batteries**.
   </div>
 
   <div style="flex: 1;">
-    <img src="../assets/controller-battery-release.webp" alt="Removing the Quest 3 controller battery cover" style="max-width: 300px; width: 100%;">
+    <img src="/assets/controller-battery-release.webp" alt="Removing the Quest 3 controller battery cover" style="max-width: 300px; width: 100%;">
   </div>
 
 </div>
