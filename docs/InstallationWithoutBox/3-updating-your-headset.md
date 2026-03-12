@@ -1,4 +1,4 @@
-# Updating your headset
+# Updating your own headset
 
 The VR headset can be updated using the **Launcher** on your computer.  
 Keeping the headset up to date ensures you always have the latest training content and improvements.

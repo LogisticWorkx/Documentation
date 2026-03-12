@@ -32,7 +32,7 @@ This modem provides the internet connection needed for the system to work.
 The modem uses **mobile reception**, so the case must be used in a location with sufficient signal.
 
 If there is no connection or the training cannot connect to the headset, check the troubleshooting section.<br />
-See: [Troubleshooting – No Wi-Fi](no-wifi.md)
+See: [Troubleshooting – No Wi-Fi](../Troubleshooting/3-no-wifi.md)
 
 ### HDMI Input
 An external monitor can be connected using the HDMI input.  

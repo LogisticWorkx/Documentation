@@ -20,7 +20,7 @@ This can be done directly from the **Meta Quest menu** inside the headset.
 2. Select **Boundary**.
 3. Choose **Reset Boundary** or **Redraw Boundary**.
 4. Follow the instructions in the headset.  
-   See [Setting up the play area](guardian-setup.md).
+   See [Setting up the play area](../UsingYourBox/4-guardian-setup.md).
 
 <img src="../assets/boundary.png" width="600">
 

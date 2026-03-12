@@ -13,31 +13,32 @@ extra_css:
 nav:
   - Home: index.md
   - Using your box:
-      - Whats in the box?: whats-in-the-box.md
-      - Starting the box: starting-the-box.md
-      - Setting up the guardian?: guardian-setup.md
-      - How to use VR?: how-to-use-vr.md
-      - Updating your box: updating-your-box.md
+      - 1. Whats in the box?: UsingYourBox/1-whats-in-the-box.md
+      - 2. Starting the box: UsingYourBox/2-starting-the-box.md
+      - 3. Using the VR headset: UsingYourBox/3-how-to-use-vr.md
+      - 4. Setting up the guardian: UsingYourBox/4-guardian-setup.md
+      - 5. Turning off the box: UsingYourBox/5-turning-off-the-box.md
+      - 6. Updating your box: UsingYourBox/6-updating-your-box.md
   - Training in VR:
-      - Using the spectator: using-the-spectator.md
-      - Switching students: switching-students.md
-      - Changing languages:  changing-language.md
+      - 1. Selecting modules: TrainingInVR/1-selecting-modules.md
+      - 2. Playing a module: TrainingInVR/2-playing-a-module.md
+      - 3. Using the spectator: TrainingInVR/3-using-the-spectator.md
+      - 4. Switching students: TrainingInVR/4-switching-students.md
+      - 5. Changing languages:  TrainingInVR/5-changing-language.md
   - Training Portal:
-      - Setting up students: setting-up-students.md 
-      - Setting up groups: setting-up-groups.md 
-      - Viewing results: viewing-results.md 
-      - Using lesson plans: using-lesson-plans.md 
-  - Self Installation:
-      - Installing the Launcher: installing-the-launcher.md
-      - Updating your headset: updating-your-headset.md
-      - Adding your own devices: adding-your-own-devices.md 
+      - 1. Setting up students: TrainingPortal/1-setting-up-students.md
+      - 2. Setting up groups: TrainingPortal/2-setting-up-groups.md
+      - 3. Viewing results: TrainingPortal/3-viewing-results.md
+      - 4. Using lesson plans: TrainingPortal/4-using-lesson-plans.md
+  - Installation without box:
+      - 1. Installing the Launcher: InstallationWithoutBox/1-installing-the-launcher.md
+      - 2. Adding your own devices: InstallationWithoutBox/2-adding-your-own-devices.md
+      - 3. Updating your own headset: InstallationWithoutBox/3-updating-your-headset.md
   - Troubleshooting:
-      - Resetting play area: resetting-the-play-area.md 
-      - Restarting your headset: restarting-your-headset.md
-      - No WiFi: no-wifi.md
-      - Controllers not working: controllers-not-working.md
-      - Need support?: need-support.md 
-      
-      
+      - 1. Resetting play area: Troubleshooting/1-resetting-the-play-area.md
+      - 2. Restarting your headset: Troubleshooting/2-restarting-your-headset.md
+      - 3. No WiFi connection: Troubleshooting/3-no-wifi.md
+      - 4. Controllers not working: Troubleshooting/4-controllers-not-working.md
+      - 5. Need support?: Troubleshooting/5-need-support.md
       
       
