@@ -43,6 +43,8 @@ Once connected, students from that class will appear inside the VR training and 
 
 ---
 
-## Switching students in VR
+## 5. Switching students in VR
 
 After the headset is linked to a class, students can switch users inside the VR training from the **student panel next to the module selection screen**.
+
+---

@@ -19,6 +19,10 @@ From here you can start the training software and operate the spectator interfac
 The VR headset is used by the trainee to follow the cleaning training in virtual reality.  
 It provides the immersive training environment and allows interaction with the training scenarios.
 
+<div style="text-align: center">
+<img src="/assets/quest-3s.png" style="width: 70%;">
+</div>
+
 ### Controllers
 The controllers are used by the trainee to interact with objects inside the VR training.  
 Each controller has a wrist strap to prevent dropping them during use.
@@ -27,9 +31,18 @@ Each controller has a wrist strap to prevent dropping them during use.
 An external monitor can be connected using the HDMI input.  
 This allows other people in the room to watch the training session on a larger screen.
 
+<div style="text-align: center">
+    <img src="/assets/hdmi-empty.jpeg" alt="HDMI input empty" style="width: 40%;">
+    <img src="/assets/hdmi-pluggedin.jpeg" alt="HDMI plugged in" style="width: 40%;">
+</div>
+
 ### Power Cable
 The power cable supplies electricity to the system.  
 Once connected to a power outlet, the computer and touchscreen inside the case will start automatically.
+
+<div style="text-align: center">
+<img src="/assets/box-plugged-in.png" style="width: 70%;">
+</div>
 
 ## Hidden Components
 
@@ -42,8 +55,7 @@ Inside the case is a computer that runs the **VR Spectator software** and manage
 Inside the case there is a built-in modem. This modem provides the internet connection needed for the system to work.
 The modem uses **mobile reception**, so the case must be used in a location with sufficient signal.
 
-If there is no connection or the training cannot connect to the headset, check the troubleshooting section.<br />
-See: [Troubleshooting – No Wi-Fi](../Troubleshooting/3-no-wifi.md)
+If there is no connection or the training cannot connect to the headset, check the troubleshooting section at [Troubleshooting – No Wi-Fi](/Troubleshooting/3-no-wifi.md)
 
 ---
 

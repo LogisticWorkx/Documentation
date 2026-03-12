@@ -17,6 +17,10 @@ Restarting does **not remove any data or training progress**.
 
 The headset will automatically turn off and start again.
 
+<div style="text-align: center">
+    <img src="/assets/turn-on-headset.png" style="width: 70%;">
+</div>
+
 ---
 
 ## Restarting if the headset is frozen
@@ -28,11 +32,3 @@ If the headset does not respond:
 3. Press the **power button** again to turn it back on.
 
 ---
-
-## When to restart the headset
-
-Restarting the headset can help if:
-
-- The controllers are not responding
-- The headset tracking is incorrect
-- The headset becomes slow or unresponsive

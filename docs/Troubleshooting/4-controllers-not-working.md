@@ -1,32 +1,28 @@
 # Controllers not working
 
-If the controllers are not responding in the VR headset, the batteries may be empty.
-
-Follow the steps below to fix the issue.
+If the controllers are not responding in the VR headset, there can be a couple different causes. Follow the steps below to fix the issue.
 
 ---
 
-## Check the controller batteries
+## 1. Do you have the right controllers?
+
+Sometimes, when you have multiple headsets, the controllers can get swapped. It's important that you check if they are the right controllers. If you put on your headset, the real controllers will start vibrating. It can help to test with other controllers if you're not 100% sure.
+
+---
+
+## 2. Are the batteries empty?
 
 Most controller issues are caused by **empty batteries**.
 
-<div style="display: flex; gap: 20px; align-items: flex-start;">
+### Removing the battery cover
+- Hold the controller in your hand.
+- On the side of the controller you will see a **small white release button**.
+- Press this **white button**.
+- The **battery cover will pop out** slightly.
+- Remove the cover from the controller. test!
 
-  <div style="flex: 1;">
-    <h3>Removing the battery cover</h3>
-    <ol>
-      <li>Hold the controller in your hand.</li>
-      <li>On the side of the controller you will see a <strong>small white release button</strong>.</li>
-      <li>Press this <strong>white button</strong>.</li>
-      <li>The <strong>battery cover will pop out</strong> slightly.</li>
-      <li>Remove the cover from the controller.</li>
-    </ol>
-  </div>
-
-  <div style="flex: 1;">
-    <img src="/assets/controller-battery-release.webp" alt="Removing the Quest 3 controller battery cover" style="max-width: 300px; width: 100%;">
-  </div>
-
+<div style="text-align: center">
+    <img src="/assets/controller-battery-release.png" style="width: 200px;">
 </div>
 
 ### Replacing the battery

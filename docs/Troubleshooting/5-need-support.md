@@ -1,15 +1,15 @@
 # Need support?
 
-If you did not find the help you needed in this guide, we are happy to help.
+If you did not find the help you needed in this Help Center, we are happy to help you directly.
 
 ---
 
 ## Contact support
 
-You can contact support in the following ways:
+Do you need help, but can it wait a day? Please contact us by e-mail. <br>We will get back to you within 24 hours.
 
-**Email**  
-support@cleaningworkx.com
+- **Email:** support@cleaningworkx.com
 
-**Phone**  
-+31 6 18990693
+For urgent questions, please don't hesitate to call us.
+
+- **Phone:** +31 618990693

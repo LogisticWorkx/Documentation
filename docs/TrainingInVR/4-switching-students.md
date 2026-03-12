@@ -13,10 +13,15 @@ Students are managed through the **online portal** and can then be selected insi
 2. The training will begin in the **Lobby**.
 3. On the right side of the whiteboard you will see the **student panel**.
 4. Select the student you want to train.
+5. Touch **Press to confirm**
 
 The selected student will now be active for the training session.
 
-![__________________Student selection screen__________________](/assets/example.png)
+<div style="text-align: center">
+    <img src="/assets/change-student.png" style="width: 70%;">
+</div>
+
+Keep in mind that changing student will change the language to their **preferred language**. The preferred language can be set in the **training portal**.
 
 ---
 
@@ -37,4 +42,10 @@ Once this is done, trainees can switch between students inside the training.
 
 Trainers can also switch the active student using the **Spectator**.
 
-This allows the trainer to change students without interrupting the trainee in VR.
+This allows the trainer to change students without interrupting the trainee in VR. Keep in mind that
+
+<div style="text-align: center">
+    <img src="/assets/spectator-sidebar-lobby.png" style="width: 70%;">
+</div>
+
+---

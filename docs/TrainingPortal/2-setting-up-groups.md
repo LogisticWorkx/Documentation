@@ -42,3 +42,5 @@ To allow students from a group to train on a headset, the headset must be linked
 Once a headset is linked to a group, students can switch users inside the VR training.
 
 This can be done from the **student panel next to the module selection screen**.
+
+---

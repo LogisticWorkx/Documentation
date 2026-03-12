@@ -1,8 +1,13 @@
 # Adding your own devices
 
-If you want to use your own VR headset instead of one supplied by Training Workx, you must first register the device in the portal.
+If you want to use your own VR headset instead of one supplied by Training Workx, you must first register the device in the portal. After registering the device, you can install the training software using the Launcher.
 
-After registering the device, you can install the training software using the Launcher.
+---
+
+## Important
+
+Your VR headset must be in **Developer Mode** for the installation to work.
+
 
 ---
 
@@ -31,7 +36,9 @@ After registering the headset, you can install the training software.
 
 The installation process may take a few minutes.
 
-![__________________Installing the software__________________](/assets/example.png)
+<div style="text-align: center">
+    <img src="/assets/updating-2.png" style="width: 70%;">
+</div>
 
 ---
 
@@ -46,10 +53,8 @@ When the installation is complete:
 
 The headset will now be linked to your account and ready to use for training.
 
-![__________________Setup screen__________________](/assets/example.png)
+<div style="text-align: center">
+    <img src="/assets/setupscene.png" style="width: 70%;">
+</div>
 
 ---
-
-## Important
-
-Your VR headset must be in **Developer Mode** for the installation to work.

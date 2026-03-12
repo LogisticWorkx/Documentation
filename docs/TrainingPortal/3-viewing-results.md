@@ -48,3 +48,5 @@ If needed, you can export the results for further analysis.
 2. Export the results as a **.csv file**.
 
 This file can be opened in spreadsheet software for reporting or record keeping.
+
+---

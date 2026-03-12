@@ -13,7 +13,7 @@ Before installing the Launcher, make sure you have the following:
 - A **stable Wi-Fi network**
 - A **Windows computer** (preferably a laptop)
 - A **USB-C port** to connect the VR headset
-- A supported VR headset (currently **Oculus Quest 2**)
+- A supported VR headset (at least **Meta Oculus Quest 2**, preferred **Meta Quest 3/3S**)
 
 The Wi-Fi network must allow both the headset and the computer to connect to each other.
 
@@ -60,6 +60,6 @@ The Launcher will now connect to your company account and automatically install 
 After installation, the Launcher can be used to:
 
 - Start the **Spectator**
-- **Update the VR headset**
-- **Update the Spectator software**
+- **Updating the VR headset**
+- **Updating the Spectator software**
 - Manage training connections between headset and computer

@@ -20,6 +20,7 @@ portal.logisticworkx.com
 
 <img src="/assets/lessonplan.png" width="800">
 <img src="/assets/edit-lessonplan.png" width="800">
+
 ---
 
 ## Assigning a lesson plan
@@ -39,3 +40,5 @@ Students will now see the assigned modules when starting the VR training.
 When students start the training, the modules from the lesson plan will appear in the **module selection screen**.
 
 They can then complete the modules in the order defined by the trainer.
+
+---
