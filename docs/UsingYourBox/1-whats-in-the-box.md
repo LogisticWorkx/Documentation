@@ -5,7 +5,7 @@ Our Training Boxes contain everything needed to run and supervise a VR cleaning 
 Below is an overview of all components located inside the case.
 
 <div style="text-align: center">
-<img src="/assets/box-with-components.png" style="width: 70%;">
+<img src="/assets/box-with-components.png" style="width: 500px;">
 </div>
 
 
@@ -20,7 +20,7 @@ The VR headset is used by the trainee to follow the cleaning training in virtual
 It provides the immersive training environment and allows interaction with the training scenarios.
 
 <div style="text-align: center">
-<img src="/assets/quest-3s.png" style="width: 70%;">
+<img src="/assets/quest-3s.png" style="width: 500px;">
 </div>
 
 ### Controllers
@@ -41,7 +41,7 @@ The power cable supplies electricity to the system.
 Once connected to a power outlet, the computer and touchscreen inside the case will start automatically.
 
 <div style="text-align: center">
-<img src="/assets/box-plugged-in.png" style="width: 70%;">
+<img src="/assets/box-plugged-in.png" style="width: 500px;">
 </div>
 
 ## Hidden Components
@@ -55,8 +55,10 @@ Inside the case is a computer that runs the **VR Spectator software** and manage
 Inside the case there is a built-in modem. This modem provides the internet connection needed for the system to work.
 The modem uses **mobile reception**, so the case must be used in a location with sufficient signal.
 
-If there is no connection or the training cannot connect to the headset, check the troubleshooting section at [Troubleshooting – No Wi-Fi](/Troubleshooting/3-no-wifi.md)
+If there is no connection or the training cannot connect to the headset, check the troubleshooting section at [Troubleshooting – No Wi-Fi](../Troubleshooting/3-no-wifi.md)
 
 ---
 
 Understanding these components will make it easier to follow the rest of the setup instructions.
+
+---

@@ -5,7 +5,8 @@ This allows the system to track training progress and results for each student.
 
 You can access the portal at:
 
-portal.logisticworkx.com
+- Logistic Workx: portal.logisticworkx.com
+- Cleaning Workx: portal.cleaningworkx.com
 
 ---
 

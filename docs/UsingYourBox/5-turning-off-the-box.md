@@ -1,12 +1,12 @@
 # Turning off the box
 
-Turnong off the box is very easy. You need less than a minute to do it. Do keep in mind that you don't forget putting everything back in the box. This prevents you from running into problems when starting up later on.
+Turning off the box is very easy. You need less than a minute to do it. Do make sure you don't forget putting everything back in the box. This prevents you from running into problems when starting up later on.
 
 ---
 
 ## 1. Take out the power cable
 
-Take the power cable of the box out of the power outlet and put it back in the box. This can always be done safely and you don't need to worry about losing any data.
+Take the power cable of the box out of the power outlet and put it back in the box. This can always be done safely, and you don't need to worry about losing any data.
 
 <div style="text-align:center">
     <img src="/assets/box-plugged-in.png" width="500">

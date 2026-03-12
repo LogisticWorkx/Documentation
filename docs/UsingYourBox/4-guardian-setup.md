@@ -11,12 +11,12 @@ The Guardian is automatically remembered by the headset, so you only need to set
 
 ---
 
-## Minimum space
+## Recommended space
 
-For the best experience we recommend creating a large enough guardian. The recommended size depends on the training:
+For the best experience we recommend creating a large enough guardian. Otherwise, you might not be able to reach everything. The recommended size depends on the training:
 
-* **Sofia VR: 3.5 × 2.5 meters**
-* **Tom VR: 4.5 × 3.0 meters**
+* **Sofia VR: 2.5 × 3.5 meters**
+* **Tom VR: 3.5 × 4.0 meters**
 
 Make sure there are **no objects inside the play area**, such as chairs, tables, or cleaning equipment.
 
@@ -27,8 +27,8 @@ Make sure there are **no objects inside the play area**, such as chairs, tables,
 Press the **menu button** on the right controller. Only press this button once, holding the button won't work. After the menu opens, select the **Quick settings** button on the bottom left. This will open the Quick Settings menu on your right.
 
 <div style="text-align:center">
-    <img src="/assets/menu-button.png" width="150">
-    <img src="/assets/quicksettings.png" width="350">
+    <img src="/assets/menu-button.png" width="220">
+    <img src="/assets/quicksettings.png" width="500">
 </div>
 
 ---
@@ -62,7 +62,7 @@ Always make sure you select **Roomscale**. Do not select Stationary.
 After selecting **Roomscale**, the system will make a boundary for you. This boundary is usually too big, so it is better to then select **Choose your own boundary**. This allows you to draw your own play area.
 
 <div style="text-align:center">
-    <img src="/assets/guardian-ownboundary.png" width="300">
+    <img src="/assets/guardian-ownboundary.png" width="400">
 </div>
 
 ---
@@ -79,7 +79,7 @@ The system will first ask you to confirm the floor level. It will automatically 
 After confirming the floor level, you can then draw the boundary by yourself. You do this by pointing with your controller and using the trigger in your hand to draw on the floor.
 
 <div style="text-align:center">
-    <img src="/assets/guardian-drawarea.png" width="400">
+    <img src="/assets/guardian-drawarea.png" width="500">
 </div>
 
 ---
@@ -89,13 +89,13 @@ After confirming the floor level, you can then draw the boundary by yourself. Yo
 Once you have completed drawing the boundary, you can look around to see if it's correct. If it is correct, you can select **Confirm**. Otherwise, you have to select **Redraw** and draw again.
 
 <div style="text-align:center">
-    <img src="/assets/guardian-confirmboundary.png" width="300">
+    <img src="/assets/guardian-confirmboundary.png" width="400">
 </div>
 
 After the boundary is set up, you can now select the **Resume** button to go back to the training.
 
 <div style="text-align:center">
-    <img src="/assets/guardian-resumeafter.png" width="400">
+    <img src="/assets/guardian-resumeafter.png" width="500">
 </div>
 
 ---
