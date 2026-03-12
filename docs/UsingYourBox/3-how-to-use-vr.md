@@ -15,6 +15,10 @@ Before putting on the VR headset, first pick up the controllers.
 
 This prevents the controllers from falling during the training.
 
+<div style="text-align:center">
+    <img src="../assets/controller-hands.png" width="500">
+</div>
+
 ---
 
 ## 2. Put on the VR headset
@@ -25,7 +29,9 @@ This prevents the controllers from falling during the training.
 4. Tighten the dial on the back until the headset sits comfortably.
 5. Adjust the top strap if necessary so the headset stays stable.
 
-![__________________Head strap dial turning__________________](../assets/example.png)
+<div style="text-align:center">
+    <img src="../assets/headstrap.png" width="400">
+</div>
 
 ---
 
@@ -41,4 +47,8 @@ The sharpest position may differ for each person.
 
 ---
 
-Once the headset and controllers are set up correctly, you are ready to begin the VR training.
+## 4. Ready to go!
+
+Once the headset and controllers are set up correctly, you are ready to begin the VR training. You always start by [Using Your Box -> Setting up the Boundary](4-guardian-setup.md).
+
+---

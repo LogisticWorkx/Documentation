@@ -2,7 +2,6 @@
 
 Here you can find everything you need to know about using your Virtual Reality training.
 
-## Information
-
-* More information needs to be added later
-* Make sure to check this page later
+<div style="text-align:center">
+    <img src="assets/boxes.png" width="600">
+</div>
