@@ -6,7 +6,10 @@ Results show how often a student trained, which modules were completed, and the 
 
 You can access the portal at:
 
-portal.logisticworkx.com
+You can access the portal at:
+
+- Logistic Workx: portal.logisticworkx.com
+- Cleaning Workx: portal.cleaningworkx.com
 
 ---
 
@@ -19,7 +22,7 @@ portal.logisticworkx.com
 
 You will now see which modules the student has completed and their current progress.
 
-<img src="/assets/view-modules.png" width="700">
+<img src="/assets/view-modules.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
 ---
 
@@ -37,6 +40,8 @@ The results page shows:
 - The score achieved
 - The student’s progress over time
 
+<img src="/assets/view_results_page.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+
 ---
 
 ## Exporting results
@@ -48,5 +53,8 @@ If needed, you can export the results for further analysis.
 2. Export the results as a **.csv file**.
 
 This file can be opened in spreadsheet software for reporting or record keeping.
+
+<img src="/assets/export.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+<img src="/assets/export-2.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
 ---

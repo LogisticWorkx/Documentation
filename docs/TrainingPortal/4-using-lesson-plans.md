@@ -5,7 +5,10 @@ They make it easier to guide students through a structured training program.
 
 Lesson plans are managed through the **Training Workx portal**.
 
-portal.logisticworkx.com
+You can access the portal at:
+
+- Logistic Workx: portal.logisticworkx.com
+- Cleaning Workx: portal.cleaningworkx.com
 
 ---
 
@@ -18,17 +21,17 @@ portal.logisticworkx.com
 5. Select the modules you want to include.
 6. Save the lesson plan.
 
-<img src="/assets/lessonplan.png" width="800">
-<img src="/assets/edit-lessonplan.png" width="800">
+<img src="/assets/lessonplan.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+<img src="/assets/edit-lessonplan.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
 ---
 
 ## Assigning a lesson plan
 
-Once a lesson plan is created, it can be assigned to students or groups.
+Once a lesson plan is created, it can be assigned to students or classes.
 
 1. Open the lesson plan in the portal.
-2. Select the students or group that should use it.
+2. Select the students or class that should use it.
 3. Save the changes.
 
 Students will now see the assigned modules when starting the VR training.

@@ -20,15 +20,15 @@ You can access the portal at:
 Each student must have a **unique staff number**.  
 This number identifies the student during training.
 
-<img src="/assets/training-students.png" width="800">
-<img src="/assets/new-student.png" width="800">
+<img src="/assets/training-students.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+<img src="/assets/new-student.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
 ---
 
 ## 2. Create a class
 
 Classes allow multiple students to use the same headset and switch between users.
-   See [Setting up groups](2-setting-up-groups.md).
+   See [Setting up classes](2-setting-up-classes.md).
 
 ---
 
@@ -43,7 +43,7 @@ To allow students to switch users inside the VR training, you must link a headse
 Once connected, students from that class will appear inside the VR training and can be selected during the session.
 
 
-<img src="/assets/connecting-to-class.png" width="800">
+<img src="/assets/connecting-to-class.png" width="800" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
 ---
 

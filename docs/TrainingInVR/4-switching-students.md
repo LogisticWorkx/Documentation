@@ -30,9 +30,9 @@ Keep in mind that changing student will change the language to their **preferred
 Before students can be selected in VR, they must be added by the trainer.
 
 1. Go to the **online portal**.
-2. Add the students to the correct **class or group**.
+2. Add the students to the correct **class or class**.
 3. Select which class is training on the headset.
-   See [Setting up groups](../TrainingPortal/1-setting-up-students.md).
+   See [Setting up classes](../TrainingPortal/1-setting-up-students.md).
 
 Once this is done, trainees can switch between students inside the training.
 

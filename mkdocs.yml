@@ -7,6 +7,13 @@ theme:
   palette:
     primary: white
     
+extra_javascript:
+  - js/print-button.js
+
+plugins:
+  - search
+  - print-site
+
 extra_css:
   - css/extra.css
 
@@ -27,7 +34,7 @@ nav:
       - 5. Changing languages:  TrainingInVR/5-changing-language.md
   - Training Portal:
       - 1. Setting up students: TrainingPortal/1-setting-up-students.md
-      - 2. Setting up groups: TrainingPortal/2-setting-up-groups.md
+      - 2. Setting up classes: TrainingPortal/2-setting-up-classes.md
       - 3. Viewing results: TrainingPortal/3-viewing-results.md
       - 4. Using lesson plans: TrainingPortal/4-using-lesson-plans.md
   - Installation without box:
