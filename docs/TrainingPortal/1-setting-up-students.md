@@ -20,6 +20,9 @@ You can access the portal at:
 Each student must have a **unique staff number**.  
 This number identifies the student during training.
 
+<img src="/assets/training-students.png" width="800">
+<img src="/assets/new-student.png" width="800">
+
 ---
 
 ## 2. Create a class
