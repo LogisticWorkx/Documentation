@@ -43,4 +43,6 @@ Once a headset is linked to a group, students can switch users inside the VR tra
 
 This can be done from the **student panel next to the module selection screen**.
 
+<img src="/assets/change-student-in-vr.png" width="500">
+
 ---
