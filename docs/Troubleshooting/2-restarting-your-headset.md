@@ -9,17 +9,15 @@ Restarting does **not remove any data or training progress**.
 
 ## Restarting from the headset
 
-1. Put on the **VR headset**.
-2. Press and hold the **power button** on the headset.
-3. A power menu will appear.
-4. Select **Restart**.
-5. Wait for the headset to restart.
+1. Put on the **VR headset**.  
+2. Press and hold the **power button** on the headset.  
+3. A power menu will appear.  
+4. Select **Restart**.  
+5. Wait for the headset to restart.  
 
 The headset will automatically turn off and start again.
 
-<div style="text-align: center">
-    <img src="/assets/turn-on-headset.png" style="width: 70%;">
-</div>
+![Restart headset](assets/turn-on-headset.png){ width=70% }
 
 ---
 
@@ -27,8 +25,8 @@ The headset will automatically turn off and start again.
 
 If the headset does not respond:
 
-1. Press and hold the **power button** for about **10 seconds**.
-2. The headset will turn off.
-3. Press the **power button** again to turn it back on.
+1. Press and hold the **power button** for about **10 seconds**.  
+2. The headset will turn off.  
+3. Press the **power button** again to turn it back on.  
 
 ---

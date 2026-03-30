@@ -10,11 +10,7 @@ If you're using a device with multiple trainings (such as Sofia VR, and Tom VR),
 
 If you later want to switch to a different training, you can do this by touching the training head on the top left of the screen with your hand.
 
-
-<div style="text-align: center">
-<img src="/assets/select-training.png" style="width: 500px;" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-</div>
-
+![Selecting training](assets/select-training.png){ width=70% }
 
 ---
 
@@ -24,9 +20,7 @@ Once you've selected the training, you can now select which module you want to t
 
 If you want to switch back to a different module, you can use the arrow on the bottom of the screen.
 
-<div style="text-align: center">
-<img src="/assets/select-module.png" style="width: 500px;" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-</div>
+![Selecting module](assets/select-module.png){ width=70% }
 
 ---
 
@@ -34,8 +28,6 @@ If you want to switch back to a different module, you can use the arrow on the b
 
 Most modules allow you to play a practice mode and a recognition game. After selecting a module, you will have to decide which of these you want to play. The practice module teaches the student something, while a recognition game or exam tests whether the student can do something by themselves.
 
-<div style="text-align: center">
-<img src="/assets/change-mode.png" style="width: 500px;" style="border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-</div>
+![Selecting mode](assets/change-mode.png){ width=70% }
 
 ---

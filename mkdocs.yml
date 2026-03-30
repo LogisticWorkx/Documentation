@@ -8,11 +8,11 @@ theme:
     primary: white
     
 extra_javascript:
-  - js/print-button.js
+  - assets/javascripts/html2pdf.bundle.min.js
+  - assets/javascripts/print-button.js
 
 plugins:
   - search
-  - print-site
 
 extra_css:
   - css/extra.css
