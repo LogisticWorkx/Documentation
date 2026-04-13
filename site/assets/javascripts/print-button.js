@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function ()
     // Skip homepage
     if (parts.length === 0) return;
 
-    const slug = parts.join("-");
-    const pdfUrl = `/pdfs/${slug}.pdf`;
+    const slug = parts.join("-").toLowerCase();
+    const pdfUrl = `${window.location.origin}/assets/pdfs/${slug}.pdf`;
 
     const content = document.querySelector(".md-content__inner");
     if (!content) return;
@@ -23,23 +23,23 @@ document.addEventListener("DOMContentLoaded", function ()
     link.innerText = "Download as PDF";
     link.className = "pdf-download-button";
 
-    // Optional: check if PDF exists
-    fetch(pdfUrl, { method: "HEAD" })
-        .then(res =>
-        {
-            if (!res.ok)
-            {
-                link.style.opacity = "0.5";
-                link.innerText = "PDF not available";
-                link.onclick = (e) => e.preventDefault();
-            }
-        })
-        .catch(() =>
-        {
-            link.style.opacity = "0.5";
-            link.innerText = "PDF not available";
-            link.onclick = (e) => e.preventDefault();
-        });
+    // // Optional: check if PDF exists
+    // fetch(pdfUrl, { method: "HEAD" })
+    //     .then(res =>
+    //     {
+    //         if (!res.ok)
+    //         {
+    //             link.style.opacity = "0.5";
+    //             link.innerText = "PDF not available";
+    //             link.onclick = (e) => e.preventDefault();
+    //         }
+    //     })
+    //     .catch(() =>
+    //     {
+    //         link.style.opacity = "0.5";
+    //         link.innerText = "PDF not available";
+    //         link.onclick = (e) => e.preventDefault();
+    //     });
 
     container.appendChild(link);
     content.appendChild(container);

@@ -129,3 +129,23 @@
         widows: 3;
     }
 }
+
+.pdf-download-button
+{
+    display: inline-block;
+    background: #b474b4;
+    color: white !important;
+    /* 🔥 dit is de fix */
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    /* 🔥 haalt underline weg */
+    font-size: 0.9rem;
+}
+
+.pdf-download-button:hover
+{
+    color: white !important;
+    /* 🔥 voorkomt blauw bij hover */
+    opacity: 0.9;
+}
