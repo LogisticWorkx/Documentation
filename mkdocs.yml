@@ -8,7 +8,6 @@ theme:
     primary: white
     
 extra_javascript:
-  - assets/javascripts/html2pdf.bundle.min.js
   - assets/javascripts/print-button.js
 
 plugins:

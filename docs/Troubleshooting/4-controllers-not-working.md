@@ -24,7 +24,7 @@ Most controller issues are caused by **empty batteries**.
 - The **battery cover will pop out** slightly.  
 - Remove the cover from the controller.  
 
-![Removing battery cover](assets/controller-battery-release.png){ width=40% }
+![Removing battery cover](../assets/controller-battery-release.png)
 
 ---
 

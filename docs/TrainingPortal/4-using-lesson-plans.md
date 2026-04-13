@@ -21,9 +21,9 @@ You can access the portal at:
 5. Select the modules you want to include.  
 6. Save the lesson plan.  
 
-![Lesson plan overview](assets/lessonplan.png){ width=80% }
+![Lesson plan overview](../assets/lessonplan.png)
 
-![Edit lesson plan](assets/edit-lessonplan.png){ width=80% }
+![Edit lesson plan](../assets/edit-lessonplan.png)
 
 ---
 

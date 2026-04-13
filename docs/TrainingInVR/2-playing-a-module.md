@@ -10,7 +10,7 @@ The instruction screen will tell you what to do in the training. When you get st
 
 Some instruction screens also have a progress bar underneath the instruction. They will show you how far in the module you have progressed.
 
-![Instruction screen](assets/training-screen.png){ width=70% }
+![Instruction screen](../assets/training-screen.png)
 
 ---
 
@@ -18,7 +18,7 @@ Some instruction screens also have a progress bar underneath the instruction. Th
 
 Instructions are usually also marked by highlights or arrows. By completing the right actions, the next instruction will automatically play and the instruction screen will change.
 
-![Completing steps](assets/training-step.png){ width=70% }
+![Completing steps](../assets/training-step.png)
 
 ---
 
@@ -30,6 +30,6 @@ If you want to open the settings screen, you do so by touching the gear on the t
 - Close the module and go back to the lobby  
 - Replay the last voice over  
 
-![Settings screen](assets/training-settings.png){ width=70% }
+![Settings screen](../assets/training-settings.png)
 
 ---

@@ -23,7 +23,7 @@ You can access the portal at:
 
 Choose a clear name so trainers can easily identify the correct class.
 
-![Selecting students for class](assets/selecting-students-for-class.png){ width=60% }
+![Selecting students for class](../assets/selecting-students-for-class.png)
 
 ---
 
@@ -36,7 +36,7 @@ To allow students from a class to train on a headset, the headset must be linked
 3. Choose the class that will train on that headset.  
 4. Save the changes.  
 
-![Selecting class for headset](assets/select-class.png){ width=60% }
+![Selecting class for headset](../assets/select-class.png)
 
 ---
 
@@ -46,6 +46,6 @@ Once a headset is linked to a class, students can switch users inside the VR tra
 
 This can be done from the **student panel next to the module selection screen**.
 
-![Switching students in VR](assets/change-student-in-vr.png){ width=60% }
+![Switching students in VR](../assets/change-student-in-vr.png)
 
 ---

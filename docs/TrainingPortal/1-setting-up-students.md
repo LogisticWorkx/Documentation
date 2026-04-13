@@ -20,9 +20,9 @@ You can access the portal at:
 Each student must have a **unique staff number**.  
 This number identifies the student during training.
 
-![Student overview](assets/training-students.png){ width=80% }
+![Student overview](../assets/training-students.png)
 
-![New student form](assets/new-student.png){ width=80% }
+![New student form](../assets/new-student.png)
 
 ---
 
@@ -43,7 +43,7 @@ To allow students to switch users inside the VR training, you must link a headse
 
 Once connected, students from that class will appear inside the VR training and can be selected during the session.
 
-![Connecting headset to class](assets/connecting-to-class.png){ width=80% }
+![Connecting headset to class](../assets/connecting-to-class.png)
 
 ---
 
@@ -51,6 +51,6 @@ Once connected, students from that class will appear inside the VR training and 
 
 After the headset is linked to a class, students can switch users inside the VR training from the **student panel next to the module selection screen**.
 
-![Switching students in VR](assets/change-student-in-vr.png){ width=80% }
+![Switching students in VR](../assets/change-student-in-vr.png)
 
 ---

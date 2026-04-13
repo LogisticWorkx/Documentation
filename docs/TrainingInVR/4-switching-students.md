@@ -17,7 +17,7 @@ Students are managed through the **online portal** and can then be selected insi
 
 The selected student will now be active for the training session.
 
-![Selecting student](assets/change-student.png){ width=70% }
+![Selecting student](../assets/change-student.png)
 
 Keep in mind that changing student will change the language to their **preferred language**. The preferred language can be set in the **training portal**.
 
@@ -42,6 +42,6 @@ Trainers can also switch the active student using the **Spectator**.
 
 This allows the trainer to change students without interrupting the trainee in VR.
 
-![Spectator student switching](assets/spectator-sidebar-lobby.png){ width=70% }
+![Spectator student switching](../assets/spectator-sidebar-lobby.png)
 
 ---

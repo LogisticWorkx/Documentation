@@ -23,7 +23,7 @@ If this isn't an option, or there is still not enough coverage, you can try seei
 
 If it is not connected, select **VRCase** and connect to it.
 
-![Wi-Fi selection on box](assets/wifi-box-select.png){ width=60% }
+![Wi-Fi selection on box](../assets/wifi-box-select.png)
 
 ---
 
@@ -37,7 +37,7 @@ If it is not connected, select **VRCase** and connect to it.
 
 If it is not connected, select **VRCase** and connect to it.
 
-![Wi-Fi settings in headset](assets/wifi-settings.png){ width=60% }
+![Wi-Fi settings in headset](../assets/wifi-settings.png)
 
 ---
 
@@ -57,7 +57,7 @@ Keep in mind that this is only a backup solution, and that this means you won't 
 
 You can force offline mode by selecting **Settings** on the bottom left and then **Force offline mode** on the right.
 
-![Offline mode](assets/offline-mode.png){ width=60% }
+![Offline mode](../assets/offline-mode.png)
 
 ---
 

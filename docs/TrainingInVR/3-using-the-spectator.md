@@ -14,7 +14,7 @@ With the Spectator you can follow the trainee live and control parts of the trai
 
 You will see a list of available VR headsets.
 
-![Launcher](assets/launcher.png){ width=70% }
+![Launcher](../assets/launcher.png)
 
 ---
 
@@ -25,7 +25,7 @@ You will see a list of available VR headsets.
 
 Once connected, the screen will show the **live view from the VR headset**.
 
-![Spectator view](assets/spectator.png){ width=70% }
+![Spectator view](../assets/spectator.png)
 
 ---
 
@@ -43,11 +43,11 @@ This allows the trainer to guide the training session without interrupting the t
 
 In the lobby, you can also **start modules**.
 
-![Spectator lobby controls](assets/spectator-sidebar-lobby.png){ width=70% }
+![Spectator lobby controls](../assets/spectator-sidebar-lobby.png)
 
 In the module, you can also **skip steps** and **close modules**.
 
-![Spectator module controls](assets/spectator-sidebar.png){ width=70% }
+![Spectator module controls](../assets/spectator-sidebar.png)
 
 ---
 
@@ -64,6 +64,6 @@ The interface buttons are visible in the lobby. While you are in a module, the i
 
 By pressing the settings button, you can get a menu with a bunch of different spectator options. These are saved on the box, so you don't have to set them again every time you train.
 
-![Spectator settings](assets/spectator-settings.png){ width=70% }
+![Spectator settings](../assets/spectator-settings.png)
 
 ---

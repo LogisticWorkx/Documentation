@@ -17,7 +17,7 @@ Restarting does **not remove any data or training progress**.
 
 The headset will automatically turn off and start again.
 
-![Restart headset](assets/turn-on-headset.png){ width=70% }
+![Restart headset](../assets/turn-on-headset.png)
 
 ---
 

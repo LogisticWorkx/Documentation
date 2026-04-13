@@ -59,3 +59,93 @@
 {
     --md-default-fg-color--light: #000000;
 }
+
+.pdf-download-button
+{
+    background: #b474b4;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.pdf-download-button:hover
+{
+    opacity: 0.92;
+}
+
+@media print
+{
+
+    .md-header,
+    .md-tabs,
+    .md-sidebar,
+    .md-footer,
+    .md-top,
+    .pdf-download-container
+    {
+        display: none !important;
+    }
+
+    .md-main,
+    .md-main__inner,
+    .md-content,
+    .md-content__inner,
+    .md-grid
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .md-content__inner
+    {
+        font-size: 12pt;
+    }
+
+    img
+    {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4
+    {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    p,
+    li
+    {
+        orphans: 3;
+        widows: 3;
+    }
+}
+
+.pdf-download-button
+{
+    display: inline-block;
+    background: #b474b4;
+    color: white !important;
+    /* 🔥 dit is de fix */
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    /* 🔥 haalt underline weg */
+    font-size: 0.9rem;
+}
+
+.pdf-download-button:hover
+{
+    color: white !important;
+    /* 🔥 voorkomt blauw bij hover */
+    opacity: 0.9;
+}

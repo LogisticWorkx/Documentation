@@ -60,28 +60,72 @@
     --md-default-fg-color--light: #000000;
 }
 
-
-.md-content__inner
+.pdf-download-button
 {
-    background: white;
-    padding: 20px;
+    background: #b474b4;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
 
-img
+.pdf-download-button:hover
 {
-    max-width: 100%;
-    display: block;
+    opacity: 0.92;
 }
 
-h1,
-h2,
-h3
+@media print
 {
-    page-break-after: avoid;
-}
 
-p,
-img
-{
-    page-break-inside: avoid;
+    .md-header,
+    .md-tabs,
+    .md-sidebar,
+    .md-footer,
+    .md-top,
+    .pdf-download-container
+    {
+        display: none !important;
+    }
+
+    .md-main,
+    .md-main__inner,
+    .md-content,
+    .md-content__inner,
+    .md-grid
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .md-content__inner
+    {
+        font-size: 12pt;
+    }
+
+    img
+    {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4
+    {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    p,
+    li
+    {
+        orphans: 3;
+        widows: 3;
+    }
 }

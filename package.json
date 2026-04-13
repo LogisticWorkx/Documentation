@@ -1,0 +1,27 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-pdfs.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://leon-klasser-lw@github.com/LogisticWorkx/Documentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LogisticWorkx/Documentation/issues"
+  },
+  "homepage": "https://github.com/LogisticWorkx/Documentation#readme",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

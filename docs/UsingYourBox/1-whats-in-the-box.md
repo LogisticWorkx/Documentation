@@ -4,7 +4,7 @@ Our Training Boxes contain everything needed to run and supervise a VR cleaning 
 
 Below is an overview of all components located inside the case.
 
-![Box with components](assets/box-with-components.png){ width=70% }
+![Box with components](../assets/box-with-components.png)
 
 ---
 
@@ -20,7 +20,7 @@ From here you can start the training software and operate the spectator interfac
 The VR headset is used by the trainee to follow the cleaning training in virtual reality.  
 It provides the immersive training environment and allows interaction with the training scenarios.
 
-![VR Headset](assets/quest-3s.png){ width=60% }
+![VR Headset](../assets/quest-3s.png)
 
 ---
 
@@ -34,9 +34,9 @@ Each controller has a wrist strap to prevent dropping them during use.
 An external monitor can be connected using the HDMI input.  
 This allows other people in the room to watch the training session on a larger screen.
 
-![HDMI input empty](assets/hdmi-empty.jpeg){ width=45% }
+![HDMI input empty](../assets/hdmi-empty.jpeg)
 
-![HDMI plugged in](assets/hdmi-pluggedin.jpeg){ width=45% }
+![HDMI plugged in](../assets/hdmi-pluggedin.jpeg)
 
 ---
 
@@ -44,7 +44,7 @@ This allows other people in the room to watch the training session on a larger s
 The power cable supplies electricity to the system.  
 Once connected to a power outlet, the computer and touchscreen inside the case will start automatically.
 
-![Power cable connected](assets/box-plugged-in.png){ width=70% }
+![Power cable connected](../assets/box-plugged-in.png)
 
 ---
 

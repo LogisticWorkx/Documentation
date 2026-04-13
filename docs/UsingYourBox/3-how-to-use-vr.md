@@ -15,7 +15,7 @@ Before putting on the VR headset, first pick up the controllers.
 
 This prevents the controllers from falling during the training.
 
-![Holding controllers](assets/controller-hands.png){ width=60% }
+![Holding controllers](../assets/controller-hands.png)
 
 ---
 
@@ -27,7 +27,7 @@ This prevents the controllers from falling during the training.
 4. Tighten the dial on the back until the headset sits comfortably.  
 5. Adjust the top strap if necessary so the headset stays stable.  
 
-![Adjusting headset](assets/headstrap.png){ width=50% }
+![Adjusting headset](../assets/headstrap.png)
 
 ---
 

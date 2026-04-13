@@ -20,7 +20,7 @@ You can access the portal at:
 
 You will now see which modules the student has completed and their current progress.
 
-![Viewing modules](assets/view-modules.png){ width=80% }
+![Viewing modules](../assets/view-modules.png)
 
 ---
 
@@ -38,7 +38,7 @@ The results page shows:
 - The score achieved  
 - The student’s progress over time  
 
-![Module results](assets/view_results_page.png){ width=80% }
+![Module results](../assets/view_results_page.png)
 
 ---
 
@@ -52,8 +52,8 @@ If needed, you can export the results for further analysis.
 
 This file can be opened in spreadsheet software for reporting or record keeping.
 
-![Export results step 1](assets/export.png){ width=80% }
+![Export results step 1](../assets/export.png)
 
-![Export results step 2](assets/export-2.png){ width=80% }
+![Export results step 2](../assets/export-2.png)
 
 ---

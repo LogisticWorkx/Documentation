@@ -15,7 +15,7 @@ The selected language will be used for the instructions, voice overs, and interf
 
 The training will now continue in the selected language.
 
-![Change language in VR](assets/change-language.png){ width=70% }
+![Change language in VR](../assets/change-language.png)
 
 ---
 
@@ -29,7 +29,7 @@ Trainers can also change the language from the **Spectator**.
 4. Choose if you want to change the Spectator or Student language (the Spectator is the language on the box, the student is the language in the headset).  
 5. Select the language you want.  
 
-![Spectator language settings](assets/spectator-languages.png){ width=70% }
+![Spectator language settings](../assets/spectator-languages.png)
 
 ---
 

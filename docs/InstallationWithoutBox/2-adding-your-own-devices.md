@@ -20,7 +20,7 @@ Your VR headset must be in **Developer Mode** for the installation to work.
 
 The headset will now appear in your device list.
 
-<img src="/assets/registering-device.png" width="500">
+<img src="/../assets/registering-device.png" width="500">
 
 ---
 
@@ -37,7 +37,7 @@ After registering the headset, you can install the training software.
 The installation process may take a few minutes.
 
 <div style="text-align: center">
-    <img src="/assets/updating-2.png" style="width: 70%;">
+    <img src="/../assets/updating-2.png" style="width: 70%;">
 </div>
 
 ---
@@ -54,7 +54,7 @@ When the installation is complete:
 The headset will now be linked to your account and ready to use for training.
 
 <div style="text-align: center">
-    <img src="/assets/setupscene.png" style="width: 70%;">
+    <img src="/../assets/setupscene.png" style="width: 70%;">
 </div>
 
 ---
