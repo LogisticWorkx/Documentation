@@ -6,7 +6,9 @@ If the controllers are not responding in the VR headset, there can be a couple d
 
 ## 1. Do you have the right controllers?
 
-Sometimes, when you have multiple headsets, the controllers can get swapped. It's important that you check if they are the right controllers. If you put on your headset, the real controllers will start vibrating. It can help to test with other controllers if you're not 100% sure.
+Sometimes, when you have multiple headsets, the controllers can get swapped. It's important to check if they are the correct controllers.
+
+If you put on your headset, the correct controllers will start vibrating. It can help to test with other controllers if you're not 100% sure.
 
 ---
 
@@ -15,21 +17,22 @@ Sometimes, when you have multiple headsets, the controllers can get swapped. It'
 Most controller issues are caused by **empty batteries**.
 
 ### Removing the battery cover
-- Hold the controller in your hand.
-- On the side of the controller you will see a **small white release button**.
-- Press this **white button**.
-- The **battery cover will pop out** slightly.
-- Remove the cover from the controller. test!
 
-<div style="text-align: center">
-    <img src="/assets/controller-battery-release.png" style="width: 200px;">
-</div>
+- Hold the controller in your hand.  
+- On the side of the controller you will see a **small white release button**.  
+- Press this **white button**.  
+- The **battery cover will pop out** slightly.  
+- Remove the cover from the controller.  
+
+![Removing battery cover](assets/controller-battery-release.png){ width=40% }
+
+---
 
 ### Replacing the battery
 
-1. Remove the old battery.
-2. Insert a **new AA battery**.
-3. Place the battery cover back onto the controller until it clicks into place.
+1. Remove the old battery.  
+2. Insert a **new AA battery**.  
+3. Place the battery cover back onto the controller until it clicks into place.  
 
 Repeat these steps for both controllers if necessary.
 
@@ -39,8 +42,8 @@ Repeat these steps for both controllers if necessary.
 
 After replacing the batteries:
 
-1. Press any button on the controller.
-2. Wait a few seconds for the controller to reconnect to the headset.
+1. Press any button on the controller.  
+2. Wait a few seconds for the controller to reconnect to the headset.  
 
 The controllers should now work normally in VR.
 
@@ -48,7 +51,9 @@ The controllers should now work normally in VR.
 
 ## If the controllers still do not respond
 
-1. Restart the **VR headset**.
-2. Turn the controllers on again.
+1. Restart the **VR headset**.  
+2. Turn the controllers on again.  
 
 If the issue continues, check that the batteries are installed correctly.
+
+---

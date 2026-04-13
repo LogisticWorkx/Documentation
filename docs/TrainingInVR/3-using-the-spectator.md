@@ -8,29 +8,24 @@ With the Spectator you can follow the trainee live and control parts of the trai
 
 ## Starting the Spectator
 
-1. Start the system and open the **Launcher**.
-2. Press the **Start Spectator** button.
-3. The Spectator application will open.
+1. Start the system and open the **Launcher**.  
+2. Press the **Start Spectator** button.  
+3. The Spectator application will open.  
 
 You will see a list of available VR headsets.
 
-<div style="text-align: center">
-<img src="/assets/launcher.png" style="width: 70%;">
-</div>
-
+![Launcher](assets/launcher.png){ width=70% }
 
 ---
 
 ## Connecting to a headset
 
-1. Select the headset you want to monitor.
-2. Press **Confirm**.
+1. Select the headset you want to monitor.  
+2. Press **Confirm**.  
 
 Once connected, the screen will show the **live view from the VR headset**.
 
-<div style="text-align: center">
-<img src="/assets/spectator.png" style="width: 70%;">
-</div>
+![Spectator view](assets/spectator.png){ width=70% }
 
 ---
 
@@ -40,24 +35,19 @@ From the Spectator interface you can control different parts of the training.
 
 For example you can:
 
-- Switch the **language**
-- Change the **active student**
-- Open **training settings**
+- Switch the **language**  
+- Change the **active student**  
+- Open **training settings**  
 
 This allows the trainer to guide the training session without interrupting the trainee.
 
 In the lobby, you can also **start modules**.
 
-<div style="text-align: center">
-<img src="/assets/spectator-sidebar-lobby.png" style="width: 70%;">
-</div>
+![Spectator lobby controls](assets/spectator-sidebar-lobby.png){ width=70% }
 
 In the module, you can also **skip steps** and **close modules**.
 
-<div style="text-align: center">
-<img src="/assets/spectator-sidebar.png" style="width: 70%;">
-</div>
-
+![Spectator module controls](assets/spectator-sidebar.png){ width=70% }
 
 ---
 
@@ -65,9 +55,8 @@ In the module, you can also **skip steps** and **close modules**.
 
 The interface buttons are visible in the lobby. While you are in a module, the interface buttons are hidden by default.
 
-- If you want to hide the interface buttons: Press the **arrow in the top-left corner** of the screen. 
-
-- If you want to show the interface buttons: Simply **tap anywhere on the screen**.
+- If you want to hide the interface buttons: Press the **arrow in the top-left corner** of the screen.  
+- If you want to show the interface buttons: Simply **tap anywhere on the screen**.  
 
 ---
 
@@ -75,8 +64,6 @@ The interface buttons are visible in the lobby. While you are in a module, the i
 
 By pressing the settings button, you can get a menu with a bunch of different spectator options. These are saved on the box, so you don't have to set them again every time you train.
 
-<div style="text-align: center">
-<img src="/assets/spectator-settings.png" style="width: 70%;">
-</div>
+![Spectator settings](assets/spectator-settings.png){ width=70% }
 
 ---
