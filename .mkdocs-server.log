@@ -1,0 +1,42 @@
+
+ \u2502  \u26a0  Warning from the Material for MkDocs team
+ \u2502
+ \u2502  MkDocs 2.0, the underlying framework of Material for MkDocs,
+ \u2502  will introduce backward-incompatible changes, including:
+ \u2502
+ \u2502  × All plugins will stop working – the plugin system has been removed
+ \u2502  × All theme overrides will break – the theming system has been rewritten
+ \u2502  × No migration path exists – existing projects cannot be upgraded
+ \u2502  × Closed contribution model – community members can't report bugs
+ \u2502  × Currently unlicensed – unsuitable for production use
+ \u2502
+ \u2502  Our full analysis:
+ \u2502
+ \u2502  https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/
+
+INFO    -  Building documentation...
+INFO    -  mkdocs_static_i18n: Building 'en' documentation to directory: C:\Users\leonk\AppData\Local\Temp\mkdocs_9v42dsd5
+INFO    -  mkdocs_static_i18n: Adding 'nl' to the 'material/search' plugin 'lang' option
+INFO    -  Cleaning site directory
+INFO    -  mkdocs_static_i18n: Building 'nl' documentation to directory: C:\Users\leonk\AppData\Local\Temp\mkdocs_9v42dsd5\nl
+INFO    -  mkdocs_static_i18n: Translated 29 navigation elements to 'nl'
+WARNING -  Doc file 'nl/Troubleshooting/3-no-wifi.md' contains a link '../assets/wifi-koffer-select.png', but the target 'nl/assets/wifi-koffer-select.png' is not found among documentation files.
+WARNING -  Doc file 'nl/UsingYourBox/2-starting-the-box.md' contains a link '../assets/koffer-plugged-in.png', but the target 'nl/assets/koffer-plugged-in.png' is not found among documentation files.
+INFO    -  Documentation built in 1.20 seconds
+INFO    -  [14:36:34] Serving on http://127.0.0.1:8000/
+WARNING -  [14:36:40] "GET /InstallationWithoutBox/1-installing-the-launcher/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:40] "GET /nl/InstallationWithoutBox/1-installing-the-launcher/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:42] "GET /nl/InstallationWithoutBox/2-adding-your-own-devices/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:42] "GET /InstallationWithoutBox/2-adding-your-own-devices/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:43] "GET /nl/InstallationWithoutBox/3-updating-your-headset/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:43] "GET /InstallationWithoutBox/3-updating-your-headset/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:44] "GET /nl/InstallationWithoutBox/1-installing-the-launcher/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:44] "GET /InstallationWithoutBox/1-installing-the-launcher/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:46] "GET /InstallationWithoutBox/2-adding-your-own-devices/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:46] "GET /nl/InstallationWithoutBox/2-adding-your-own-devices/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:47] "GET /InstallationWithoutBox/3-updating-your-headset/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:47] "GET /nl/InstallationWithoutBox/3-updating-your-headset/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:48] "GET /nl/TrainingInVR/1-selecting-modules/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:48] "GET /TrainingInVR/1-selecting-modules/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:50] "GET /TrainingInVR/2-playing-a-module/sitemap.xml HTTP/1.1" code 404
+WARNING -  [14:36:50] "GET /nl/TrainingInVR/2-playing-a-module/sitemap.xml HTTP/1.1" code 404

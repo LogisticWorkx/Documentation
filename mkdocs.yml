@@ -9,6 +9,7 @@ theme:
     
 extra_javascript:
   - assets/javascripts/print-button.js
+  - assets/javascripts/language-flag.js
 
 plugins:
   - search
