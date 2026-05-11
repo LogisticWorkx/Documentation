@@ -1,9 +1,16 @@
 @echo off
-
 cd ..
 
-echo Starting MkDocs server in separate window...
+echo Building MkDocs site first...
+python -m mkdocs build
 
+if errorlevel 1 (
+    echo MkDocs build failed.
+    pause
+    exit /b 1
+)
+
+echo Starting MkDocs server in separate window...
 start "MkDocs Server" cmd /c "python -m mkdocs serve"
 
 echo Waiting for server to start...
@@ -12,8 +19,14 @@ timeout /t 5 > nul
 echo Generating PDFs...
 node generate-pdfs.js
 
-echo Stopping MkDocs server...
+if errorlevel 1 (
+    echo PDF generation failed.
+    taskkill /FI "WINDOWTITLE eq MkDocs Server" /T /F > nul 2>&1
+    pause
+    exit /b 1
+)
 
+echo Stopping MkDocs server...
 taskkill /FI "WINDOWTITLE eq MkDocs Server" /T /F > nul 2>&1
 
 echo Done!

@@ -31,7 +31,6 @@ function getHtmlFiles(dir, fileList = [])
     return fileList;
 }
 
-// 🔥 EXACT dezelfde slug als frontend
 function getSlug(htmlPath)
 {
     const relative = path.relative(siteDir, path.dirname(htmlPath));
@@ -39,7 +38,13 @@ function getSlug(htmlPath)
     if (!relative || relative === "")
         return null;
 
-    return relative
+    const normalized = relative.replace(/\\/g, "/");
+
+    // Skip language homepages
+    if (normalized === "en" || normalized === "nl")
+        return null;
+
+    return normalized
         .replace(/[\\\/]+/g, "-")
         .toLowerCase();
 }

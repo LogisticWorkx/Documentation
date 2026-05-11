@@ -12,6 +12,49 @@ extra_javascript:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+
+        - locale: nl
+          name: Nederlands
+          build: true
+          nav_translations:
+            Home: Home
+            Using your box: Je koffer gebruiken
+            1. Whats in the box?: 1. Wat zit er in de koffer?
+            2. Starting the box: 2. De koffer opstarten
+            3. Using the VR headset: 3. De VR-headset gebruiken
+            4. Setting up the guardian: 4. De guardian instellen
+            5. Turning off the box: 5. De koffer uitschakelen
+            6. Updating your box: 6. Je koffer updaten
+            Training in VR: Training in VR
+            1. Selecting modules: 1. Modules selecteren
+            2. Playing a module: 2. Een module starten
+            3. Using the spectator: 3. De spectator gebruiken
+            4. Switching students: 4. Studenten wisselen
+            5. Changing languages: 5. Taal wijzigen
+            Training Portal: Training Portaal
+            1. Setting up students: 1. Studenten instellen
+            2. Setting up classes: 2. Klassen instellen
+            3. Viewing results: 3. Resultaten bekijken
+            4. Using lesson plans: 4. Lesplannen gebruiken
+            Installation without box: Installatie zonder koffer
+            1. Installing the Launcher: 1. De launcher installeren
+            2. Adding your own devices: 2. Eigen apparaten toevoegen
+            3. Updating your own headset: 3. Je eigen headset updaten
+            Troubleshooting: Problemen oplossen
+            1. Resetting play area: 1. Speelruimte resetten
+            2. Restarting your headset: 2. Je headset herstarten
+            3. No WiFi connection: 3. Geen wifi-verbinding
+            4. Controllers not working: 4. Controllers werken niet
+            5. Need support?: 5. Hulp nodig?
+
+      reconfigure_material: true
 
 extra_css:
   - css/extra.css
