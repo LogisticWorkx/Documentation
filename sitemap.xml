@@ -1,3 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/"/>
+    </url>
+    <url>
+        <loc>NoneInstallationWithoutBox/1-installing-the-launcher/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/1-installing-the-launcher/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/1-installing-the-launcher/"/>
+    </url>
+    <url>
+        <loc>NoneInstallationWithoutBox/2-adding-your-own-devices/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/2-adding-your-own-devices/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/2-adding-your-own-devices/"/>
+    </url>
+    <url>
+        <loc>NoneInstallationWithoutBox/3-updating-your-headset/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/3-updating-your-headset/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/3-updating-your-headset/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingInVR/1-selecting-modules/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/1-selecting-modules/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/1-selecting-modules/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingInVR/2-playing-a-module/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/2-playing-a-module/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/2-playing-a-module/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingInVR/3-using-the-spectator/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/3-using-the-spectator/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/3-using-the-spectator/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingInVR/4-switching-students/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/4-switching-students/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/4-switching-students/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingInVR/5-changing-language/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/5-changing-language/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/5-changing-language/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingPortal/1-setting-up-students/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/1-setting-up-students/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/1-setting-up-students/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingPortal/2-setting-up-classes/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/2-setting-up-classes/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/2-setting-up-classes/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingPortal/3-viewing-results/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/3-viewing-results/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/3-viewing-results/"/>
+    </url>
+    <url>
+        <loc>NoneTrainingPortal/4-using-lesson-plans/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-lesson-plans/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-lesson-plans/"/>
+    </url>
+    <url>
+        <loc>NoneTroubleshooting/1-resetting-the-play-area/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/1-resetting-the-play-area/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/1-resetting-the-play-area/"/>
+    </url>
+    <url>
+        <loc>NoneTroubleshooting/2-restarting-your-headset/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/2-restarting-your-headset/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/2-restarting-your-headset/"/>
+    </url>
+    <url>
+        <loc>NoneTroubleshooting/3-no-wifi/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/3-no-wifi/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/3-no-wifi/"/>
+    </url>
+    <url>
+        <loc>NoneTroubleshooting/4-controllers-not-working/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/4-controllers-not-working/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/4-controllers-not-working/"/>
+    </url>
+    <url>
+        <loc>NoneTroubleshooting/5-need-support/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/5-need-support/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/5-need-support/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/1-whats-in-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/1-whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/1-whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/2-starting-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/2-starting-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/2-starting-the-box/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/3-how-to-use-vr/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/3-how-to-use-vr/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/3-how-to-use-vr/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/4-guardian-setup/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/4-guardian-setup/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/4-guardian-setup/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/5-turning-off-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/5-turning-off-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/5-turning-off-the-box/"/>
+    </url>
+    <url>
+        <loc>NoneUsingYourBox/6-updating-your-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/6-updating-your-box/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/6-updating-your-box/"/>
+    </url>
+    <url>
+        <loc>Nonenl/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonenl/InstallationWithoutBox/1-installing-the-launcher/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/1-installing-the-launcher/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/1-installing-the-launcher/"/>
+    </url>
+    <url>
+        <loc>Nonenl/InstallationWithoutBox/2-adding-your-own-devices/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/2-adding-your-own-devices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/2-adding-your-own-devices/"/>
+    </url>
+    <url>
+        <loc>Nonenl/InstallationWithoutBox/3-updating-your-headset/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/InstallationWithoutBox/3-updating-your-headset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneInstallationWithoutBox/3-updating-your-headset/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingInVR/1-selecting-modules/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/1-selecting-modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/1-selecting-modules/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingInVR/2-playing-a-module/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/2-playing-a-module/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/2-playing-a-module/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingInVR/3-using-the-spectator/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/3-using-the-spectator/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/3-using-the-spectator/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingInVR/4-switching-students/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/4-switching-students/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/4-switching-students/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingInVR/5-changing-language/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingInVR/5-changing-language/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingInVR/5-changing-language/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingPortal/1-setting-up-students/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/1-setting-up-students/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/1-setting-up-students/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingPortal/2-setting-up-classes/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/2-setting-up-classes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/2-setting-up-classes/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingPortal/3-viewing-results/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/3-viewing-results/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/3-viewing-results/"/>
+    </url>
+    <url>
+        <loc>Nonenl/TrainingPortal/4-using-lesson-plans/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-lesson-plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-lesson-plans/"/>
+    </url>
+    <url>
+        <loc>Nonenl/Troubleshooting/1-resetting-the-play-area/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/1-resetting-the-play-area/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/1-resetting-the-play-area/"/>
+    </url>
+    <url>
+        <loc>Nonenl/Troubleshooting/2-restarting-your-headset/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/2-restarting-your-headset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/2-restarting-your-headset/"/>
+    </url>
+    <url>
+        <loc>Nonenl/Troubleshooting/3-no-wifi/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/3-no-wifi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/3-no-wifi/"/>
+    </url>
+    <url>
+        <loc>Nonenl/Troubleshooting/4-controllers-not-working/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/4-controllers-not-working/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/4-controllers-not-working/"/>
+    </url>
+    <url>
+        <loc>Nonenl/Troubleshooting/5-need-support/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/Troubleshooting/5-need-support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTroubleshooting/5-need-support/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/1-whats-in-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/1-whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/1-whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/2-starting-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/2-starting-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/2-starting-the-box/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/3-how-to-use-vr/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/3-how-to-use-vr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/3-how-to-use-vr/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/4-guardian-setup/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/4-guardian-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/4-guardian-setup/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/5-turning-off-the-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/5-turning-off-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/5-turning-off-the-box/"/>
+    </url>
+    <url>
+        <loc>Nonenl/UsingYourBox/6-updating-your-box/</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/UsingYourBox/6-updating-your-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneUsingYourBox/6-updating-your-box/"/>
+    </url>
 </urlset>

@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function ()
     const path = window.location.pathname;
     const parts = path.split("/").filter(Boolean);
 
-    // Skip homepage
-    if (parts.length === 0) return;
+    // Skip root homepage and language homepages
+    if (parts.length === 0 || (parts.length === 1 && ["en", "nl"].includes(parts[0]))) return;
 
     const slug = parts.join("-").toLowerCase();
     const pdfUrl = `${window.location.origin}/assets/pdfs/${slug}.pdf`;
