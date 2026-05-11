@@ -1,8 +1,8 @@
 # De Launcher installeren
 
-De **Launcher** wordt gebruikt om de VR-trainingssoftware te installeren en bij te werken en om de Spectator-applicatie te starten.
+De **Launcher** wordt gebruikt om de VR-trainingssoftware te installeren en bij te werken en om de Spectator te starten.
 
-U kunt de Launcher op uw eigen Windows-computer installeren als u de training wilt uitvoeren zonder een trainingscase te gebruiken.
+U kunt de Launcher op uw eigen Windows-computer installeren als u de training wilt uitvoeren zonder een koffer te gebruiken.
 
 ---
 
@@ -21,9 +21,9 @@ Het wifi-netwerk moet verbinding tussen de headset en de computer mogelijk maken
 
 ## De Launcher downloaden
 
-1. Ga naar het **Training Workx-portaal**
+1. Ga naar het **Training Workx-portal**
 2. Navigeer naar **Administratie → Downloads**
-3. Download het **Launcher-installatieprogramma**
+3. Download de **Launcher-installer**
 
 U vindt uw **bedrijfstoegangscode** ook op deze pagina.
 
@@ -33,7 +33,7 @@ U vindt uw **bedrijfstoegangscode** ook op deze pagina.
 
 ## De Launcher installeren
 
-1. Open het gedownloade **Launcher-installatieprogramma**.
+1. Open het gedownloade **Launcher-installer**.
 
 2. Volg de instructies op het scherm.
 
@@ -65,5 +65,5 @@ Na de installatie kan de Launcher worden gebruikt om:
 
 - De **Spectator** te starten
 - **De VR-headset bij te werken**
-- **De Spectator-software bij te werken**
+- **De Spectator bij te werken**
 - Trainingsverbindingen tussen headset en computer te beheren

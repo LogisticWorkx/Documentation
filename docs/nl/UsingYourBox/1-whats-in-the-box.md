@@ -55,7 +55,7 @@ Zodra de kabel is aangesloten op een stopcontact, starten de computer en het tou
 
 ## Verborgen componenten
 
-De koffers bevat ook enkele verborgen componenten aan de binnenkant. U hoeft hier nooit iets mee te doen, maar het is wellicht toch handig om te weten dat ze bestaan.
+De koffers bevatten ook enkele verborgen componenten aan de binnenkant. U hoeft hier nooit iets mee te doen, maar het is wellicht toch handig om te weten dat ze bestaan.
 
 ---
 

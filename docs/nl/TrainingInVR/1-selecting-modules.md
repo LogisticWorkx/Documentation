@@ -1,33 +1,33 @@
-# Selecting modules
+# Modules selecteren
 
-When you start the training, you always start in our training lobby. The lobby looks like an office space in Shanghai where you have a large screen in front of you. This menu allows you to select what module you want to play.
-
----
-
-## 1. Selecting the training
-
-If you're using a device with multiple trainings (such as Sofia VR, and Tom VR), you will first have to select which training you want to play. You do this by touching the training button with your hand.
-
-If you later want to switch to a different training, you can do this by touching the training head on the top left of the screen with your hand.
-
-![Selecting training](../assets/select-training.png)
+Wanneer je de training start, begin je altijd in onze trainingslobby. De lobby ziet eruit als een kantoor in Shanghai met een groot scherm voor je. In dit menu kun je de module selecteren die je wilt spelen.
 
 ---
 
-## 2. Selecting the module
+## 1. De training selecteren
 
-Once you've selected the training, you can now select which module you want to train. Select the module by touching it with your hand.
+Als je een apparaat gebruikt met meerdere trainingen (zoals Sofia VR en Tom VR), moet je eerst de training selecteren die je wilt spelen. Dit doe je door met je hand op de trainingsknop te tikken.
 
-If you want to switch back to a different module, you can use the arrow on the bottom of the screen.
+Als je later wilt overschakelen naar een andere training, kun je dit doen door met je hand op de trainingsknop linksboven in het scherm te tikken.
 
-![Selecting module](../assets/select-module.png)
+![Training selecteren](../assets/select-training.png)
 
 ---
 
-## 3. Selecting the training mode
+## 2. De module selecteren
 
-Most modules allow you to play a practice mode and a recognition game. After selecting a module, you will have to decide which of these you want to play. The practice module teaches the student something, while a recognition game or exam tests whether the student can do something by themselves.
+Nadat je de training hebt geselecteerd, kun je de module kiezen die je wilt trainen. Selecteer de module door er met je hand op te tikken.
 
-![Selecting mode](../assets/change-mode.png)
+Als je wilt terugschakelen naar een andere module, kun je de pijl onderaan het scherm gebruiken.
+
+![Module selecteren](../assets/select-module.png)
+
+---
+
+## 3. De trainingsmodus selecteren
+
+De meeste modules bieden een oefenmodus en een herkenningsspel. Nadat je een module hebt geselecteerd, moet je kiezen welke van deze twee je wilt spelen. De oefenmodule leert de leerling iets, terwijl een herkenningsspel of examen test of de leerling iets zelfstandig kan.
+
+![Modus selecteren](../assets/change-mode.png)
 
 ---

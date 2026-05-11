@@ -1,12 +1,12 @@
-# De box uitschakelen
+# De koffer uitschakelen
 
-De box uitschakelen is heel eenvoudig. Het duurt minder dan een minuut. Vergeet niet alles weer in de box terug te plaatsen. Dit voorkomt problemen bij het opstarten later.
+De koffer uitschakelen is heel eenvoudig. Het duurt minder dan een minuut. Vergeet niet alles weer in de koffer terug te plaatsen. Dit voorkomt problemen bij het opstarten later.
 
 ---
 
 ## 1. Haal de stroomkabel eruit
 
-Haal de stroomkabel van de box uit het stopcontact en plaats deze terug in de box. Dit kan altijd veilig en u hoeft zich geen zorgen te maken over gegevensverlies.
+Haal de stroomkabel van de koffer uit het stopcontact en plaats deze terug in de box. Dit kan altijd veilig en u hoeft zich geen zorgen te maken over gegevensverlies.
 
 <div style="text-align:center">
 

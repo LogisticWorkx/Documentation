@@ -56,6 +56,6 @@ De scherpste positie kan per persoon verschillen.
 
 Zodra de headset en controllers correct zijn ingesteld, kun je beginnen met de VR-training.
 
-Je begint altijd met [Je Box gebruiken → De grens instellen](4-guardian-setup.md).
+Je begint altijd met [Je koffer gebruiken → De grens instellen](4-guardian-setup.md).
 
 ---

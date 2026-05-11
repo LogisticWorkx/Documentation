@@ -1,14 +1,14 @@
-# Je box bijwerken
+# Je koffer bijwerken
 
 Het systeem kan worden bijgewerkt om de nieuwste verbeteringen en trainingscontent te ontvangen.
 
-Updates worden beheerd via de **Launcher**, die automatisch wordt geopend wanneer de box opstart.
+Updates worden beheerd via de **Launcher**, die automatisch wordt geopend wanneer de koffer opstart.
 
 ---
 
 ## De update downloaden
 
-Voordat een update kan worden geïnstalleerd, moet de nieuwe versie eerst worden **gedownload**. Deze download gebeurt **automatisch op de achtergrond** wanneer de box is verbonden met internet.
+Voordat een update kan worden geïnstalleerd, moet de nieuwe versie eerst worden **gedownload**. Deze download gebeurt **automatisch op de achtergrond** wanneer de koffer is verbonden met internet.
 
 Afhankelijk van de internetverbinding kan het downloaden van de update **tot een uur** duren. Je kunt de update pas installeren **nadat de download is voltooid**.
 

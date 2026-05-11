@@ -1,22 +1,22 @@
 # Geen wifi-verbinding
 
-Als de **Spectator** of de **headset** een pop-up met **Geen wifi** weergeeft, kan het zijn dat de box onvoldoende mobiel bereik heeft. Er zijn een paar manieren om dit te voorkomen.
+Als de **Spectator** of de **headset** een pop-up met **Geen wifi** weergeeft, kan het zijn dat de koffer onvoldoende mobiel bereik heeft. Er zijn een paar manieren om dit te voorkomen.
 
 ---
 
-## 1. Verplaats de box naar een andere locatie
+## 1. Verplaats de koffer naar een andere locatie
 
-Het is meestal het beste om de box naar een locatie met een betere verbinding te verplaatsen. Vermijd stevige stalen constructies en plaats de box dichter bij ramen en buiten.
+Het is meestal het beste om de koffer naar een locatie met een betere verbinding te verplaatsen. Vermijd stevige stalen constructies en plaats de koffer dichter bij ramen en buiten.
 
-Als dit geen optie is, of als er nog steeds onvoldoende bereik is, kunt u controleren of de box en headset correct zijn verbonden.
+Als dit geen optie is, of als er nog steeds onvoldoende bereik is, kunt u controleren of de koffer en headset correct zijn verbonden.
 
 ----
 
 ## 2. Probeer de verbinding opnieuw
 
-### Als de pop-up op de box verschijnt
+### Als de pop-up op de koffer verschijnt
 
-1. Sluit de **trainingsapplicatie**.
+1. Sluit de **spectato**.
 
 2. Kijk op het touchscreen van de case naar de **taakbalk** in de **rechteronderhoek**.
 
@@ -26,7 +26,7 @@ Als dit geen optie is, of als er nog steeds onvoldoende bereik is, kunt u contro
 
 Als er geen verbinding is, selecteer dan **VRCase** en maak er verbinding mee.
 
-![Wi-Fi-selectie op de koffer](../assets/wifi-box-select.png)
+![Wi-Fi-selectie op de koffer](../assets/wifi-koffer-select.png)
 
 ---
 
@@ -50,9 +50,9 @@ Als er geen verbinding is, selecteer dan **VRCase** en maak er verbinding mee.
 
 ## 3. Na opnieuw verbinden
 
-Zodra zowel de **case** als de **headset** zijn verbonden met **VRCase**, start u de trainingsapplicatie opnieuw. De **headset** en **Spectator** zouden nu normaal verbinding moeten maken.
+Zodra zowel de **case** als de **headset** zijn verbonden met **VRCase**, start u de spectator opnieuw. De **headset** en **Spectator** zouden nu normaal verbinding moeten maken.
 
-Als u nog steeds geen wifi hebt, moet u de box en headset met uw eigen netwerk verbinden. U kunt dit doen door naar de hierboven beschreven instellingen te gaan en uw eigen netwerk te selecteren.
+Als u nog steeds geen wifi hebt, moet u de koffer en headset met uw eigen netwerk verbinden. U kunt dit doen door naar de hierboven beschreven instellingen te gaan en uw eigen netwerk te selecteren.
 
 ---
 
