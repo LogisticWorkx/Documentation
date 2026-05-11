@@ -207,3 +207,30 @@
 {
     background: var(--md-default-fg-color--lightest);
 }
+
+.custom-language-switcher
+{
+    margin-right: 1rem;
+}
+
+.custom-language-menu
+{
+    display: none;
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    min-width: 210px;
+
+    background: var(--md-default-bg-color);
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 6px;
+
+    box-shadow:
+        0 0 .2rem rgba(0, 0, 0, .1),
+        0 .2rem .4rem rgba(0, 0, 0, .2);
+
+    overflow: hidden;
+    z-index: 99999;
+}
