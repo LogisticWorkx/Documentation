@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function ()
     link.href = pdfUrl;
     link.setAttribute("download", "");
     const isDutch = window.location.pathname.startsWith("/nl/");
-    link.innerText = isDutch ? "Download als PDF" : "Download as PDF";
+    link.innerText = isDutch ? "Download pagina als PDF" : "Download page as PDF";
     link.className = "pdf-download-button";
 
     // // Optional: check if PDF exists
