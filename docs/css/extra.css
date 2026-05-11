@@ -1,6 +1,13 @@
+:root,
+[data-md-color-scheme="default"]
+{
+    --md-default-fg-color--light: #000000;
+}
+
+/* Header */
 .md-header
 {
-    border-bottom: 3px solid #b474b4
+    border-bottom: 3px solid #b474b4;
 }
 
 .md-header__button.md-logo img
@@ -8,33 +15,21 @@
     height: 2.1rem !important;
 }
 
-.md-footer
-{
-    display: none;
-}
-
 .md-header__topic
 {
     display: none;
 }
 
+/* Footer */
+.md-footer
+{
+    display: none;
+}
+
+/* Navigation */
 .md-sidebar--secondary
 {
     display: none !important;
-}
-
-@media (min-width: 1024px)
-{
-    .md-content
-    {
-        margin-left: 4rem;
-        max-width: 750px;
-    }
-}
-
-.md-typeset h1
-{
-    text-align: center;
 }
 
 .md-nav__title
@@ -50,32 +45,136 @@
 
 .md-nav__item--nested .md-nav__item
 {
-    padding-top: 0.0rem !important;
-    padding-bottom: 0.0rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
-:root,
-[data-md-color-scheme="default"]
+/* Page layout */
+@media (min-width: 1024px)
 {
-    --md-default-fg-color--light: #000000;
+    .md-content
+    {
+        margin-left: 4rem;
+        max-width: 750px;
+    }
+}
+
+.md-typeset h1
+{
+    text-align: center;
+}
+
+/* PDF download link */
+.pdf-download-container
+{
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .pdf-download-button
 {
-    background: #b474b4;
-    color: white;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: #9c4aa0 !important;
+    text-decoration: none !important;
+
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+
+    transition: opacity .2s ease;
 }
 
 .pdf-download-button:hover
 {
-    opacity: 0.92;
+    opacity: 0.75;
+    color: #9c4aa0 !important;
 }
 
+.pdf-download-button::before
+{
+    content: "🖨️";
+    font-size: 1em;
+}
+
+/* Custom language switcher */
+.custom-language-switcher
+{
+    position: relative;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    z-index: 9999;
+}
+
+.custom-language-button
+{
+    width: 44px;
+    height: 44px;
+
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+    font-size: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-language-menu
+{
+    display: none;
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    min-width: 210px;
+
+    background: var(--md-default-bg-color);
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 6px;
+
+    box-shadow:
+        0 0 .2rem rgba(0, 0, 0, .1),
+        0 .2rem .4rem rgba(0, 0, 0, .2);
+
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.custom-language-switcher.open .custom-language-menu,
+.custom-language-switcher:hover .custom-language-menu
+{
+    display: block;
+}
+
+.custom-language-menu a
+{
+    display: block;
+    padding: 12px 18px;
+
+    color: var(--md-default-fg-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.custom-language-menu a:hover
+{
+    background: var(--md-default-fg-color--lightest);
+}
+
+.lang-flag
+{
+    margin-right: 10px;
+}
+
+/* Print/PDF cleanup */
 @media print
 {
 
@@ -84,7 +183,8 @@
     .md-sidebar,
     .md-footer,
     .md-top,
-    .pdf-download-container
+    .pdf-download-container,
+    .custom-language-switcher
     {
         display: none !important;
     }
@@ -128,82 +228,4 @@
         orphans: 3;
         widows: 3;
     }
-}
-
-.pdf-download-button
-{
-    display: inline-block;
-    background: #b474b4;
-    color: white !important;
-    /* 🔥 dit is de fix */
-    padding: 10px 16px;
-    border-radius: 6px;
-    text-decoration: none !important;
-    /* 🔥 haalt underline weg */
-    font-size: 0.9rem;
-}
-
-.pdf-download-button:hover
-{
-    color: white !important;
-    /* 🔥 voorkomt blauw bij hover */
-    opacity: 0.9;
-}
-
-.custom-language-switcher
-{
-    position: relative;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    z-index: 9999;
-}
-
-.custom-language-button
-{
-    width: 44px;
-    height: 44px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.custom-language-menu
-{
-    display: none;
-    position: absolute;
-    top: 48px;
-    right: 0;
-    min-width: 210px;
-    background: var(--md-default-bg-color);
-    border: 1px solid rgba(0, 0, 0, .12);
-    border-radius: 6px;
-    box-shadow:
-        0 0 .2rem rgba(0, 0, 0, .1),
-        0 .2rem .4rem rgba(0, 0, 0, .2);
-    overflow: hidden;
-    z-index: 99999;
-}
-
-.custom-language-switcher.open .custom-language-menu
-{
-    display: block;
-}
-
-.custom-language-menu a
-{
-    display: block;
-    padding: 12px 18px;
-    color: var(--md-default-fg-color);
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.custom-language-menu a:hover
-{
-    background: var(--md-default-fg-color--lightest);
 }

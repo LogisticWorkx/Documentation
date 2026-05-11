@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function ()
         </button>
 
         <div class="custom-language-menu">
-            <a href="${englishUrl}">🇬🇧 English</a>
-            <a href="${dutchUrl}">🇳🇱 Nederlands</a>
+            <a href="${englishUrl}">🇬🇧&nbsp;&nbsp;English</a>
+            <a href="${dutchUrl}">🇳🇱&nbsp;&nbsp;Nederlands</a>
         </div>
     `;
 
