@@ -34,21 +34,20 @@ function getHtmlFiles(dir, fileList = [])
 function getSlug(htmlPath)
 {
     const relative = path.relative(siteDir, path.dirname(htmlPath));
-
-    if (!relative || relative === "")
-        return null;
-
     const normalized = relative.replace(/\\/g, "/");
 
-    // Skip language homepages
-    if (normalized === "en" || normalized === "nl")
+    // Skip homepage
+    if (!normalized || normalized === ".")
+        return null;
+
+    // Skip Dutch language homepage
+    if (normalized === "nl")
         return null;
 
     return normalized
         .replace(/[\\\/]+/g, "-")
         .toLowerCase();
 }
-
 (async () =>
 {
     console.log("Starting PDF generation...");
