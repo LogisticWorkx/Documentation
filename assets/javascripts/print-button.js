@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function ()
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.setAttribute("download", "");
-    link.innerText = "Download as PDF";
+    const isDutch = window.location.pathname.startsWith("/nl/");
+    link.innerText = isDutch ? "Download als PDF" : "Download as PDF";
     link.className = "pdf-download-button";
 
     // // Optional: check if PDF exists
