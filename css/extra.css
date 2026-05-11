@@ -149,3 +149,61 @@
     /* 🔥 voorkomt blauw bij hover */
     opacity: 0.9;
 }
+
+.custom-language-switcher
+{
+    position: relative;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+
+.custom-language-button
+{
+    width: 44px;
+    height: 44px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-language-menu
+{
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    min-width: 210px;
+    background: var(--md-default-bg-color);
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 6px;
+    box-shadow:
+        0 0 .2rem rgba(0, 0, 0, .1),
+        0 .2rem .4rem rgba(0, 0, 0, .2);
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.custom-language-switcher.open .custom-language-menu
+{
+    display: block;
+}
+
+.custom-language-menu a
+{
+    display: block;
+    padding: 12px 18px;
+    color: var(--md-default-fg-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.custom-language-menu a:hover
+{
+    background: var(--md-default-fg-color--lightest);
+}
