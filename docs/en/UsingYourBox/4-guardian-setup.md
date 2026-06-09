@@ -17,6 +17,7 @@ For the best experience we recommend creating a large enough guardian. Otherwise
 
 * **Sofia VR: 2.5 × 3.5 meters**
 * **Tom VR: 3.5 × 4.0 meters**
+* **Charlie VR: 2.0 × 2.0 meters**
 
 Make sure there are **no objects inside the play area**, such as chairs, tables, or cleaning equipment.
 

@@ -19,6 +19,7 @@ Voor de beste ervaring raden we aan een voldoende grote Guardian te creëren. An
 
 * **Sofia VR: 2,5 × 3,5 meter**
 * **Tom VR: 3,5 × 4,0 meter**
+* **Charlie VR: 2,0 × 2,0 meter**
 
 Zorg ervoor dat er **geen objecten in de speelruimte** staan, zoals stoelen, tafels of schoonmaakspullen.
 
