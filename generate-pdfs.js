@@ -65,7 +65,10 @@ function drawProgress(current, total)
         .map(getRouteAndSlug)
         .filter(Boolean);
 
-    const browser = await chromium.launch();
+    const browser = await chromium.launch({
+	    channel: 'msedge',
+	    headless: true
+	});
     const page = await browser.newPage();
 
     console.log("Generating PDFs...");
