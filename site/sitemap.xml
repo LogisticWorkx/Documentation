@@ -85,11 +85,11 @@
         <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/3-viewing-results/"/>
     </url>
     <url>
-        <loc>NoneTrainingPortal/4-using-lesson-plans/</loc>
+        <loc>NoneTrainingPortal/4-using-training-programs/</loc>
         <lastmod>2026-08-04</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-lesson-plans/"/>
-        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-lesson-plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-training-programs/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-training-programs/"/>
     </url>
     <url>
         <loc>NoneTroubleshooting/1-resetting-the-play-area/</loc>
@@ -253,11 +253,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/3-viewing-results/"/>
     </url>
     <url>
-        <loc>Nonenl/TrainingPortal/4-using-lesson-plans/</loc>
+        <loc>Nonenl/TrainingPortal/4-using-training-programs/</loc>
         <lastmod>2026-08-04</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-lesson-plans/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-lesson-plans/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="Nonenl/TrainingPortal/4-using-training-programs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneTrainingPortal/4-using-training-programs/"/>
     </url>
     <url>
         <loc>Nonenl/Troubleshooting/1-resetting-the-play-area/</loc>
