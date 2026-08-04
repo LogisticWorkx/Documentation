@@ -21,16 +21,21 @@ Je kunt het portaal openen via:
 1. Log in op het **Training Workx-portaal**.
 2. Ga naar **Training → Trainings**.
 3. Klik op **+ Trainingprogramma**.
-4. Voer een naam in voor het trainingprogramma.
-5. Kies de gewenste **Trainingsvorm**:
-   - **Vrije volgorde** – Deelnemers kunnen de modules in een willekeurige volgorde voltooien.
-   - **Lesplan** – Deelnemers moeten de modules in de vooraf ingestelde volgorde voltooien.
-6. Voeg de modules toe die je wilt opnemen.
-7. Sla het trainingprogramma op.
 
 ![Overzicht trainingprogramma's](../assets/lessonplan.png)
 
+4. Voer een naam in voor het trainingprogramma.
+5. Kies de gewenste **Trainingsvorm**:
+   - **Vrije volgorde** – Deelnemers kunnen de geselecteerde modules in elke gewenste volgorde voltooien.
+   - **Lesplan** – Deelnemers moeten de modules in de vooraf ingestelde volgorde voltooien.
+
 ![Trainingsvorm selecteren](../assets/edit-lessonplan.png)
+
+6. Voeg de modules toe die je wilt opnemen.
+
+![Modules toevoegen](../assets/add-modules.png)
+
+7. Sla het trainingprogramma op.
 
 ---
 
@@ -40,8 +45,17 @@ Zodra een trainingprogramma is aangemaakt, kan het worden toegewezen aan individ
 
 1. Ga naar **Training → Studenten**.
 2. Zoek de deelnemer en klik op **Modules bekijken**.
+
+![Modules bekijken](../assets/view-modules.png)
+
 3. Klik op **Modules beheren**.
+
+![Modules beheren](../assets/manage-modules.png)
+
 4. Selecteer rechtsboven bij **Trainingprogramma** het trainingprogramma dat je hebt aangemaakt.
+
+![Trainingprogramma selecteren](../assets/select-program.png)
+
 5. Sla de wijzigingen op.
 
 Het geselecteerde trainingprogramma is nu toegewezen aan de deelnemer.

@@ -1,65 +1,71 @@
-# Studenten aanmaken
+# Studenten instellen
 
-Voordat studenten met de training kunnen beginnen, moeten ze eerst worden aangemaakt in het **Training Workx-portaal**.
+Voordat deelnemers met de training kunnen beginnen, moeten zij eerst worden aangemaakt in het **Training Workx-portaal**.
 
-Dit stelt het systeem in staat de trainingsvoortgang en -resultaten van elke student te volgen.
+Hierdoor kan het systeem de voortgang en resultaten van iedere deelnemer bijhouden.
 
-U kunt het portaal bereiken via:
+Je kunt het portaal openen via:
 
 - Logistic Workx: portal.logisticworkx.com
-
 - Cleaning Workx: portal.cleaningworkx.com
 
 ---
 
-## 1. Een student aanmaken
+## 1. Een deelnemer aanmaken
 
 1. Log in op het portaal.
+2. Ga naar **Training → Studenten**.
+3. Klik op de knop **Nieuwe deelnemer**.
+4. Vul de gegevens van de deelnemer in.
 
-2. Ga naar **Trainen → Studenten**.
+Elke deelnemer moet een **uniek personeelsnummer** hebben.
+Dit nummer wordt gebruikt om de deelnemer tijdens de training te identificeren.
 
-3. Klik op de knop **Nieuwe student**.
+![Overzicht deelnemers](../assets/training-students.png)
 
-4. Vul de studentgegevens in.
-
-Elke student moet een **uniek personeelsnummer** hebben.
-
-Dit nummer identificeert de student tijdens de training.
-
-![Studentoverzicht](../assets/training-students.png)
-
-![Nieuw studentformulier](../assets/new-student.png)
+![Nieuwe deelnemer](../assets/new-student.png)
 
 ---
 
 ## 2. Een klas aanmaken
 
-Met een klas kunnen meerdere studenten dezelfde headset gebruiken en tussen gebruikers wisselen.
+Met klassen kunnen meerdere deelnemers dezelfde VR-bril gebruiken en eenvoudig tussen gebruikers wisselen.
 
 Zie [Klassen instellen](2-setting-up-classes.md).
 
 ---
 
-## 3. De headset aan een klas koppelen
+## 3. Een VR-bril koppelen aan een klas
 
-Om studenten in staat te stellen van gebruiker te wisselen tijdens de VR-training, moet u een headset aan een klas koppelen.
+Om deelnemers tijdens de VR-training van gebruiker te laten wisselen, moet een VR-bril aan een klas worden gekoppeld.
 
-1. Ga naar **Trainen → Apparaten**.
+1. Ga naar **Training → Apparaten**.
+2. Selecteer de VR-bril die je wilt gebruiken.
+3. Kies de klas die gebruik zal maken van deze VR-bril.
 
-2. Selecteer de VR-headset die u wilt gebruiken.
+Zodra de koppeling is gemaakt, verschijnen de deelnemers uit die klas in de VR-training en kunnen zij tijdens de sessie worden geselecteerd.
 
-3. Kies de klas die op die headset zal trainen.
-
-Zodra de verbinding tot stand is gebracht, verschijnen de studenten van die klas in de VR-training en kunnen ze tijdens de sessie worden geselecteerd.
-
-![Headset verbinden met klas](../assets/connecting-to-class.png)
+![VR-bril koppelen aan een klas](../assets/connecting-to-class.png)
 
 ---
 
-## 4. Studenten wisselen in VR
+## 4. Wisselen van deelnemer in VR
 
-Nadat de headset is gekoppeld aan een klas, kunnen studenten van gebruiker wisselen binnen de VR-training via het **studentenpaneel naast het moduleselectiescherm**.
+Nadat de VR-bril aan een klas is gekoppeld, kunnen deelnemers tijdens de VR-training van gebruiker wisselen via het **deelnemerspaneel naast het modulescherm**.
 
-![Studenten wisselen in VR](../assets/change-student-in-vr.png)
+![Wisselen van deelnemer in VR](../assets/change-student-in-vr.png)
+
+---
+
+## 5. Een trainingprogramma toewijzen
+
+Na het aanmaken van een deelnemer kun je een trainingprogramma toewijzen.
+
+1. Ga naar **Training → Studenten**.
+2. Zoek de deelnemer en klik op **Modules bekijken**.
+3. Klik op **Modules beheren**.
+4. Selecteer rechtsboven bij **Trainingprogramma** het gewenste trainingprogramma.
+
+Voor meer informatie, zie [Trainingprogramma's gebruiken](4-using-training-programs.md).
 
 ---

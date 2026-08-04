@@ -21,16 +21,17 @@ You can access the portal at:
 1. Log in to the **Training Workx portal**.
 2. Go to **Training → Trainings**.
 3. Click **+ Training program**.
+![Training overview](../assets/lessonplan.png)
 4. Enter a name for the training program.
 5. Choose the desired **Training form**:
    - **Any order** – Participants can complete the selected modules in any order.
    - **Lesson plan** – Participants must complete the modules in the predefined order.
+![Training form selection](../assets/edit-lessonplan.png)
 6. Add the modules you want to include.
+![Add Modules](../assets/add-modules.png)
 7. Save the training program.
 
-![Training overview](../assets/lessonplan.png)
 
-![Training form selection](../assets/edit-lessonplan.png)
 
 ---
 
@@ -40,8 +41,11 @@ Once a training program has been created, it can be assigned to individual stude
 
 1. Go to **Training → Students**.
 2. Find the student and click **View modules**.
+![View Modules](../assets/view-modules.png)
 3. Click **Manage modules**.
+![Manage Modules](../assets/manage-modules.png)
 4. In the top-right corner, use the **Training program** dropdown to select the training program you created.
+![Select Modules](../assets/select-program.png)
 5. Save the changes.
 
 The selected training program is now assigned to the student.

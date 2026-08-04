@@ -43,7 +43,7 @@ plugins:
             1. Setting up students: 1. Studenten instellen
             2. Setting up classes: 2. Klassen instellen
             3. Viewing results: 3. Resultaten bekijken
-            4. Using lesson plans: 4. Lesplannen gebruiken
+            4. Using training programs: 4. Trainingprogramma's gebruiken
             Installation without box: Installatie zonder koffer
             1. Installing the Launcher: 1. De launcher installeren
             2. Adding your own devices: 2. Eigen apparaten toevoegen
@@ -79,7 +79,7 @@ nav:
       - 1. Setting up students: TrainingPortal/1-setting-up-students.md
       - 2. Setting up classes: TrainingPortal/2-setting-up-classes.md
       - 3. Viewing results: TrainingPortal/3-viewing-results.md
-      - 4. Using lesson plans: TrainingPortal/4-using-lesson-plans.md
+      - 4. Using training programs: TrainingPortal/4-using-training-programs.md
   - Installation without box:
       - 1. Installing the Launcher: InstallationWithoutBox/1-installing-the-launcher.md
       - 2. Adding your own devices: InstallationWithoutBox/2-adding-your-own-devices.md

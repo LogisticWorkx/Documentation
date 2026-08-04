@@ -54,3 +54,11 @@ After the headset is linked to a class, students can switch users inside the VR 
 ![Switching students in VR](../assets/change-student-in-vr.png)
 
 ---
+
+## 5. Assigning a training program
+
+After creating a student, you can assign a training program by opening **View modules**, clicking **Manage modules**, and selecting a training program from the **Training program** dropdown.
+
+For more information, see [Using training programs](4-using-training-programs.md).
+
+---
