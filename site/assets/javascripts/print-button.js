@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function ()
     const parts = path.split("/").filter(Boolean);
 
     // Skip root homepage and language homepages
-    if (parts.length === 0 || (parts.length === 1 && ["en", "nl"].includes(parts[0]))) return;
+    if (parts.length === 0 || (parts.length === 1 && ["en", "nl", "de", "fr"].includes(parts[0]))) return;
 
     const slug = parts.join("-").toLowerCase();
     const pdfUrl = `${window.location.origin}/assets/pdfs/${slug}.pdf`;
@@ -20,8 +20,13 @@ document.addEventListener("DOMContentLoaded", function ()
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.setAttribute("download", "");
-    const isDutch = window.location.pathname.startsWith("/nl/");
-    link.innerText = isDutch ? "Download pagina als PDF" : "Download page as PDF";
+    // Button text in the page's language (English pages are at the root, the others under /<code>/)
+    const buttonTexts = {
+        nl: "Download pagina als PDF",
+        de: "Seite als PDF herunterladen",
+        fr: "Télécharger la page en PDF"
+    };
+    link.innerText = buttonTexts[parts[0]] || "Download page as PDF";
     link.className = "pdf-download-button";
 
     // // Optional: check if PDF exists
