@@ -125,6 +125,11 @@ plugins:
 
       reconfigure_material: true
 
+# Copy each image/css/js file only once per build. Without it, every language copies them all again, which can
+# fail on Windows with "Errno 22 Invalid argument". See hooks/copy_once.py.
+hooks:
+  - hooks/copy_once.py
+
 extra_css:
   - css/extra.css
 
