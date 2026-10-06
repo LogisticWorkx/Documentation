@@ -35,8 +35,8 @@ function getRouteAndSlug(htmlPath)
     const relative = path.relative(siteDir, path.dirname(htmlPath));
     const normalized = relative.replace(/\\/g, "/");
 
-    // Skip root homepage and Dutch language homepage
-    if (!normalized || normalized === "." || normalized === "nl")
+    // Skip root homepage and the language homepages
+    if (!normalized || normalized === "." || ["nl", "de", "fr"].includes(normalized))
         return null;
 
     const route = `/${normalized}/`;

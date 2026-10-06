@@ -55,6 +55,74 @@ plugins:
             4. Controllers not working: 4. Controllers werken niet
             5. Need support?: 5. Hulp nodig?
 
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Home: Startseite
+            Using your box: Ihren Koffer verwenden
+            1. Whats in the box?: 1. Was ist im Koffer?
+            2. Starting the box: 2. Den Koffer starten
+            3. Using the VR headset: 3. Das VR-Headset verwenden
+            4. Setting up the guardian: 4. Den Guardian einrichten
+            5. Turning off the box: 5. Den Koffer ausschalten
+            6. Updating your box: 6. Ihren Koffer aktualisieren
+            Training in VR: Training in VR
+            1. Selecting modules: 1. Module auswählen
+            2. Playing a module: 2. Ein Modul starten
+            3. Using the spectator: 3. Den Spectator verwenden
+            4. Switching students: 4. Teilnehmer wechseln
+            5. Changing languages: 5. Sprache ändern
+            Training Portal: Trainingsportal
+            1. Setting up students: 1. Teilnehmer einrichten
+            2. Setting up classes: 2. Klassen einrichten
+            3. Viewing results: 3. Ergebnisse ansehen
+            4. Using training programs: 4. Trainingsprogramme verwenden
+            Installation without box: Installation ohne Koffer
+            1. Installing the Launcher: 1. Den Launcher installieren
+            2. Adding your own devices: 2. Eigene Geräte hinzufügen
+            3. Updating your own headset: 3. Ihr eigenes Headset aktualisieren
+            Troubleshooting: Fehlerbehebung
+            1. Resetting play area: 1. Spielbereich zurücksetzen
+            2. Restarting your headset: 2. Ihr Headset neu starten
+            3. No WiFi connection: 3. Keine WLAN-Verbindung
+            4. Controllers not working: 4. Controller funktionieren nicht
+            5. Need support?: 5. Brauchen Sie Hilfe?
+
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: Accueil
+            Using your box: Utiliser votre valise
+            1. Whats in the box?: 1. Que contient la valise ?
+            2. Starting the box: 2. Démarrer la valise
+            3. Using the VR headset: 3. Utiliser le casque VR
+            4. Setting up the guardian: 4. Configurer le Guardian
+            5. Turning off the box: 5. Éteindre la valise
+            6. Updating your box: 6. Mettre à jour votre valise
+            Training in VR: Formation en VR
+            1. Selecting modules: 1. Sélectionner des modules
+            2. Playing a module: 2. Lancer un module
+            3. Using the spectator: 3. Utiliser le spectator
+            4. Switching students: 4. Changer de stagiaire
+            5. Changing languages: 5. Changer de langue
+            Training Portal: Portail de formation
+            1. Setting up students: 1. Configurer les stagiaires
+            2. Setting up classes: 2. Configurer les classes
+            3. Viewing results: 3. Consulter les résultats
+            4. Using training programs: 4. Utiliser les programmes de formation
+            Installation without box: Installation sans valise
+            1. Installing the Launcher: 1. Installer le launcher
+            2. Adding your own devices: 2. Ajouter vos propres appareils
+            3. Updating your own headset: 3. Mettre à jour votre propre casque
+            Troubleshooting: Dépannage
+            1. Resetting play area: 1. Réinitialiser la zone de jeu
+            2. Restarting your headset: 2. Redémarrer votre casque
+            3. No WiFi connection: 3. Pas de connexion Wi-Fi
+            4. Controllers not working: 4. Les manettes ne fonctionnent pas
+            5. Need support?: 5. Besoin d'aide ?
+
       reconfigure_material: true
 
 extra_css:

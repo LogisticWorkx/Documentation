@@ -8,7 +8,7 @@ Met deze koffer kunt u eenvoudig op de hoogte blijven van wat de cursist in VR d
 
 Sluit de koffer aan op een stopcontact. De koffer en het scherm worden dan automatisch ingeschakeld. Het opstarten duurt ongeveer 2 minuten.
 
-![koffer aangesloten](../assets/koffer-plugged-in.png)
+![koffer aangesloten](../assets/box-plugged-in.png)
 
 ---
 

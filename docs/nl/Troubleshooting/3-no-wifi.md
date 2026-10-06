@@ -26,7 +26,7 @@ Als dit geen optie is, of als er nog steeds onvoldoende bereik is, kunt u contro
 
 Als er geen verbinding is, selecteer dan **VRCase** en maak er verbinding mee.
 
-![Wi-Fi-selectie op de koffer](../assets/wifi-koffer-select.png)
+![Wi-Fi-selectie op de koffer](../assets/wifi-box-select.png)
 
 ---
 

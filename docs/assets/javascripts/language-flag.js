@@ -11,6 +11,24 @@ function dutchFlag()
     </svg>`;
 }
 
+function germanFlag()
+{
+    return `<svg class="lang-flag" viewBox="0 0 9 6" aria-hidden="true">
+        <rect width="9" height="6" fill="#FFCE00"/>
+        <rect width="9" height="4" fill="#DD0000"/>
+        <rect width="9" height="2" fill="#000000"/>
+    </svg>`;
+}
+
+function frenchFlag()
+{
+    return `<svg class="lang-flag" viewBox="0 0 9 6" aria-hidden="true">
+        <rect width="9" height="6" fill="#EF4135"/>
+        <rect width="6" height="6" fill="#FFFFFF"/>
+        <rect width="3" height="6" fill="#0055A4"/>
+    </svg>`;
+}
+
 function britishFlag()
 {
     // The clip paths need an id that's unique on the page, this flag is shown more than once
@@ -28,6 +46,15 @@ function britishFlag()
     </svg>`;
 }
 
+// The site's languages, in menu order. English is the default and lives at the root, the others under /<code>/.
+// Keep in sync with the i18n languages in mkdocs.yml.
+const languages = [
+    { code: "en", name: "English", flag: britishFlag },
+    { code: "nl", name: "Nederlands", flag: dutchFlag },
+    { code: "de", name: "Deutsch", flag: germanFlag },
+    { code: "fr", name: "Français", flag: frenchFlag }
+];
+
 document.addEventListener("DOMContentLoaded", function ()
 {
     const oldSwitcher = document.querySelector(".md-header__option");
@@ -36,35 +63,28 @@ document.addEventListener("DOMContentLoaded", function ()
     // Hide original Material language switcher
     oldSwitcher.style.display = "none";
 
-    const isDutch = window.location.pathname.startsWith("/nl/");
-    const currentFlag = isDutch ? dutchFlag() : britishFlag();
+    // Which language is this page in, and what's the page's path without the language part
+    const currentPath = window.location.pathname;
+    const firstPart = currentPath.split("/").filter(Boolean)[0];
+    const current = languages.find(l => l.code !== "en" && l.code === firstPart) || languages[0];
+    const pagePath = current.code === "en" ? currentPath : (currentPath.substring(current.code.length + 1) || "/");
 
-    let currentPath = window.location.pathname;
-
-    let englishUrl = currentPath;
-    let dutchUrl = currentPath;
-
-    if (isDutch)
+    // The same page in another language
+    function urlFor(language)
     {
-        englishUrl = currentPath.replace(/^\/nl/, "") || "/";
-        dutchUrl = currentPath;
-    } else
-    {
-        englishUrl = currentPath;
-        dutchUrl = "/nl" + currentPath;
+        return language.code === "en" ? pagePath : "/" + language.code + pagePath;
     }
 
     const wrapper = document.createElement("div");
     wrapper.className = "custom-language-switcher";
 
     wrapper.innerHTML = `
-        <button class="custom-language-button" type="button" aria-label="${isDutch ? "Nederlands" : "English"}">
-            ${currentFlag}
+        <button class="custom-language-button" type="button" aria-label="${current.name}">
+            ${current.flag()}
         </button>
 
         <div class="custom-language-menu">
-            <a href="${englishUrl}">${britishFlag()}English</a>
-            <a href="${dutchUrl}">${dutchFlag()}Nederlands</a>
+            ${languages.map(l => `<a href="${urlFor(l)}">${l.flag()}${l.name}</a>`).join("")}
         </div>
     `;
 
@@ -78,8 +98,6 @@ document.addEventListener("DOMContentLoaded", function ()
     {
         headerInner.appendChild(wrapper);
     }
-
-    const button = wrapper.querySelector(".custom-language-button");
 
     wrapper.addEventListener("mouseenter", function ()
     {
