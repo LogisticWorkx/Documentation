@@ -48,14 +48,10 @@
       
     
     
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Plus+Jakarta+Sans:wght@500..800&display=swap">
+
     
       <link rel="stylesheet" href="../../../css/extra.css">
     
@@ -73,7 +69,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -94,19 +90,22 @@
     
       
 
+
   
+
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
     <a href="../../" title="Training Workx Help Center" class="md-header__button md-logo" aria-label="Training Workx Help Center" data-md-component="logo">
       
   <img src="../../../assets/logo.png" alt="logo">
 
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
+    <a href="../../" class="tw-header-label">Help Center</a>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
@@ -191,6 +190,8 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -1334,11 +1335,34 @@
             
           
           
-            <div class="md-content" data-md-component="content">
+  <div class="md-content" data-md-component="content">
+    
+      
+      <div class="tw-article-bar">
+        <nav class="tw-breadcrumbs" aria-label="Kruimelpad">
+          <ol>
+            
+              <li><a href="../../">Home</a></li>
+            
+            
               
-              <article class="md-content__inner md-typeset">
-                
-                  
+              <li><a href="../1-setting-up-students/">Training Portaal</a></li>
+            
+            <li aria-current="page">Klassen instellen</li>
+          </ol>
+        </nav>
+        <a class="tw-print" href="../../../assets/pdfs/nl-trainingportal-2-setting-up-classes.pdf" download title="Download pagina als PDF" aria-label="Download pagina als PDF">
+          <span class="tw-icon tw-icon--printer" aria-hidden="true"></span>
+          <span>PDF</span>
+        </a>
+      </div>
+    
+
+    <article class="md-content__inner md-typeset">
+      
+          <p class="tw-eyebrow">Training Portaal</p>
+        
+        
 
 
 
@@ -1415,31 +1439,72 @@
 
 
 
-                
-              </article>
-            </div>
-          
+      
+    </article>
+
+    
+      <nav class="tw-pager">
+        
+          <a class="tw-pager__link tw-pager__link--prev" href="../1-setting-up-students/">
+            <span class="tw-icon tw-icon--arrow-left" aria-hidden="true"></span>
+            <span>
+              <span class="tw-pager__label">Vorig artikel</span>
+              <span class="tw-pager__title">Studenten instellen</span>
+            </span>
+          </a>
+        
+        
+          <a class="tw-pager__link tw-pager__link--next" href="../3-viewing-results/">
+            <span>
+              <span class="tw-pager__label">Volgend artikel</span>
+              <span class="tw-pager__title">Resultaten bekijken</span>
+            </span>
+            <span class="tw-icon tw-icon--arrow-right" aria-hidden="true"></span>
+          </a>
+        
+      </nav>
+    
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Terug naar boven
+</button>
+        
       </main>
       
-        <footer class="md-footer">
+        
+
+
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+
+
+<footer class="md-footer tw-footer">
+  <div class="tw-footer__inner md-grid">
+    <a class="tw-footer__brand" href="../../" aria-label="Training Workx Help Center">
+      <img src="../../../assets/logo-white.png" alt="">
+      <span>Help Center</span>
     </a>
-  
-</div>
+    <ul class="tw-footer__links">
+      <li>© <span class="tw-year">2026</span> Training Workx
+        <script>document.currentScript.previousElementSibling.textContent = new Date().getFullYear();</script>
+      </li>
       
-    </div>
+        <li>
+          <a href="https://www.trainingworkx.com" target="_blank" rel="noopener">
+            Website <span class="tw-icon tw-icon--arrow-up-right" aria-hidden="true"></span>
+          </a>
+        </li>
+      
+      
+        <li><a href="../../Troubleshooting/5-need-support/">Support</a></li>
+      
+    </ul>
   </div>
 </footer>
       
@@ -1450,14 +1515,25 @@
     
     
     
+  
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": null}</script>
     
+  
+    <script>
+      (function ()
+      {
+        var element = document.getElementById("__config");
+        var settings = JSON.parse(element.textContent);
+        settings.base = settings.base + "/nl/";
+        element.textContent = JSON.stringify(settings);
+      })();
+    </script>
+  
+
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
-      
-        <script src="../../../assets/javascripts/print-button.js"></script>
       
         <script src="../../../assets/javascripts/language-flag.js"></script>
       

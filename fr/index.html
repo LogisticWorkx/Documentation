@@ -46,14 +46,10 @@
       
     
     
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Plus+Jakarta+Sans:wght@500..800&display=swap">
+
     
       <link rel="stylesheet" href="../css/extra.css">
     
@@ -71,13 +67,18 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#comment-pouvons-nous-vous-aider" class="md-skip">
+          Aller au contenu
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -87,19 +88,22 @@
     
       
 
+
   
+
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
     <a href="./" title="Training Workx Help Center" class="md-header__button md-logo" aria-label="Training Workx Help Center" data-md-component="logo">
       
   <img src="../assets/logo.png" alt="logo">
 
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
+    <a href="./" class="tw-header-label">Centre d'aide</a>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
@@ -185,6 +189,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -207,6 +213,48 @@
     
     <div class="md-container" data-md-component="container">
       
+  
+  <section class="tw-hero">
+    <div class="tw-hero__inner md-grid">
+      <div class="tw-hero__text md-typeset">
+        
+          <p class="tw-eyebrow">Centre d'aide Training Workx</p>
+        
+        <h1 id="comment-pouvons-nous-vous-aider">Comment pouvons-nous vous aider ?</h1>
+<p>Tout ce dont vous avez besoin pour démarrer, gérer et tirer le meilleur parti de votre formation en réalité virtuelle.</p><label class="tw-search" for="__search">
+          <span class="tw-icon tw-icon--search" aria-hidden="true"></span>
+          <span class="tw-search__placeholder">Rechercher des guides, des questions ou des sujets...</span>
+          <span class="tw-search__button">Rechercher</span>
+        </label>
+      </div>
+      
+        <div class="tw-hero__media">
+          <img src="../assets/hero-box.webp" alt="Une valise de formation VR ouverte, avec l'écran tactile et le casque VR">
+        </div>
+      
+    </div>
+  </section>
+  <script>
+    // Open the site search and put the cursor in it, so typing works right away
+    document.querySelectorAll(".tw-search").forEach(function (bar)
+    {
+      bar.addEventListener("click", function (event)
+      {
+        var toggle = document.getElementById("__search");
+        var input = document.querySelector(".md-search__input");
+        if (!toggle || !input) return;
+
+        event.preventDefault();
+        if (!toggle.checked)
+        {
+          toggle.checked = true;
+          toggle.dispatchEvent(new Event("change"));
+        }
+        input.focus();
+      });
+    });
+  </script>
+
       
         
           
@@ -217,7 +265,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -248,6 +298,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -1193,7 +1245,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1201,6 +1255,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table des matières">
   
   
+  
+    
   
   
 </nav>
@@ -1210,61 +1266,190 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
+  <div class="md-content" data-md-component="content">
+    
 
+    <article class="md-content__inner md-typeset">
+      
+  
+  
 
+  <div class="tw-home">
+    <h2 class="tw-home__title">Explorer le centre d'aide</h2>
+    <div class="tw-cards">
+      
+        
+        
+        <a class="tw-card" href="UsingYourBox/1-whats-in-the-box/">
+          <span class="tw-card__icon"><span class="tw-icon tw-icon--box" aria-hidden="true"></span></span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">Utiliser votre valise</span>
+            
+              <span class="tw-card__text">Installer, utiliser et entretenir votre valise de formation.</span>
+            
+          </span>
+          <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+        </a>
+      
+        
+        
+        <a class="tw-card" href="TrainingInVR/1-selecting-modules/">
+          <span class="tw-card__icon"><span class="tw-icon tw-icon--vr-headset" aria-hidden="true"></span></span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">Formation en VR</span>
+            
+              <span class="tw-card__text">Lancez une formation et apprenez à utiliser le casque VR.</span>
+            
+          </span>
+          <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+        </a>
+      
+        
+        
+        <a class="tw-card" href="TrainingPortal/1-setting-up-students/">
+          <span class="tw-card__icon"><span class="tw-icon tw-icon--monitor" aria-hidden="true"></span></span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">Portail de formation</span>
+            
+              <span class="tw-card__text">Gérez les stagiaires, les classes, les résultats et les programmes.</span>
+            
+          </span>
+          <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+        </a>
+      
+        
+        
+        <a class="tw-card" href="InstallationWithoutBox/1-installing-the-launcher/">
+          <span class="tw-card__icon"><span class="tw-icon tw-icon--download" aria-hidden="true"></span></span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">Installation sans valise</span>
+            
+              <span class="tw-card__text">Installer et configurer la formation VR sans valise.</span>
+            
+          </span>
+          <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+        </a>
+      
+        
+        
+        <a class="tw-card" href="Troubleshooting/1-resetting-the-play-area/">
+          <span class="tw-card__icon"><span class="tw-icon tw-icon--wrench" aria-hidden="true"></span></span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">Dépannage</span>
+            
+              <span class="tw-card__text">Des solutions aux problèmes techniques courants.</span>
+            
+          </span>
+          <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+        </a>
+      
 
-<div style="width:600">
-<h1 style="margin-bottom:0rem; font-weight: 600" >Bienvenue dans le</h1>
-<h1 style="margin-bottom:1.0rem; font-weight: 600">Centre d'aide <span style="color: #835AE3">Training Workx</span></h1>
+      
+        
+          <a class="tw-card" href="Troubleshooting/5-need-support/">
+            <span class="tw-card__icon"><span class="tw-icon tw-icon--message-circle" aria-hidden="true"></span></span>
+            <span class="tw-card__body">
+              <span class="tw-card__title">Contacter le support</span>
+              <span class="tw-card__text">Obtenez de l'aide de l'équipe Training Workx.</span>
+            </span>
+            <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+          </a>
+        
+      
+    </div>
 
-<div style="margin-bottom:1.0rem;">Vous trouverez ici tout ce que vous devez savoir pour utiliser votre formation en réalité virtuelle.</div>
-
-<div style="text-align:center; padding-top: 1rem">
-    <img src="../assets/boxes.png">
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
-            </div>
+    
+      <h2 class="tw-home__title">Articles populaires</h2>
+      <ul class="tw-list">
+        
           
+            <li>
+              <a href="UsingYourBox/2-starting-the-box/">
+                <span class="tw-icon tw-icon--file-text" aria-hidden="true"></span>
+                <span class="tw-list__title">Démarrer la valise</span>
+                <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="UsingYourBox/4-guardian-setup/">
+                <span class="tw-icon tw-icon--file-text" aria-hidden="true"></span>
+                <span class="tw-list__title">Configurer le Guardian</span>
+                <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="UsingYourBox/6-updating-your-box/">
+                <span class="tw-icon tw-icon--file-text" aria-hidden="true"></span>
+                <span class="tw-list__title">Mettre à jour votre valise</span>
+                <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="TrainingPortal/1-setting-up-students/">
+                <span class="tw-icon tw-icon--file-text" aria-hidden="true"></span>
+                <span class="tw-list__title">Configurer les stagiaires</span>
+                <span class="tw-icon tw-icon--chevron-right" aria-hidden="true"></span>
+              </a>
+            </li>
+          
+        
+      </ul>
+    
+  </div>
+
+    </article>
+
+    
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
       </main>
       
-        <footer class="md-footer">
+        
+
+
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+
+
+<footer class="md-footer tw-footer">
+  <div class="tw-footer__inner md-grid">
+    <a class="tw-footer__brand" href="./" aria-label="Training Workx Help Center">
+      <img src="../assets/logo-white.png" alt="">
+      <span>Centre d'aide</span>
     </a>
-  
-</div>
+    <ul class="tw-footer__links">
+      <li>© <span class="tw-year">2026</span> Training Workx
+        <script>document.currentScript.previousElementSibling.textContent = new Date().getFullYear();</script>
+      </li>
       
-    </div>
+        <li>
+          <a href="https://www.trainingworkx.com" target="_blank" rel="noopener">
+            Site web <span class="tw-icon tw-icon--arrow-up-right" aria-hidden="true"></span>
+          </a>
+        </li>
+      
+      
+        <li><a href="Troubleshooting/5-need-support/">Support</a></li>
+      
+    </ul>
   </div>
 </footer>
       
@@ -1275,14 +1460,25 @@
     
     
     
+  
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
+  
+    <script>
+      (function ()
+      {
+        var element = document.getElementById("__config");
+        var settings = JSON.parse(element.textContent);
+        settings.base = settings.base + "/fr/";
+        element.textContent = JSON.stringify(settings);
+      })();
+    </script>
+  
+
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
-      
-        <script src="../assets/javascripts/print-button.js"></script>
       
         <script src="../assets/javascripts/language-flag.js"></script>
       
