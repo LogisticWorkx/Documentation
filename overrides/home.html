@@ -32,6 +32,8 @@
         <label class="tw-search" for="__search">
           {{ tw.icon("search") }}
           <span class="tw-search__placeholder">{{ meta.search_placeholder }}</span>
+          {#- Shorter text for phones, e.g. "Search..." -#}
+          <span class="tw-search__placeholder tw-search__placeholder--short">{{ meta.search_button }}...</span>
           <span class="tw-search__button">{{ meta.search_button }}</span>
         </label>
       </div>

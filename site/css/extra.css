@@ -1208,11 +1208,20 @@ body
     height: .75rem;
 }
 
-/* On phones the links can wrap, so space them instead of separating them with lines */
+/* On phones: everything centred, and the links spaced instead of separated with lines, since they can wrap */
 @media screen and (max-width: 44.984375em)
 {
+    .tw-footer__inner
+    {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.2rem;
+        text-align: center;
+    }
+
     .tw-footer__links
     {
+        justify-content: center;
         gap: .4rem 1.2rem;
     }
 
@@ -1349,6 +1358,25 @@ body
     font-size: .75rem;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+/* Phones show the short placeholder ("Search..."), larger screens the full one */
+.tw-search__placeholder--short
+{
+    display: none;
+}
+
+@media screen and (max-width: 44.984375em)
+{
+    .tw-search__placeholder
+    {
+        display: none;
+    }
+
+    .tw-search__placeholder--short
+    {
+        display: block;
+    }
 }
 
 .tw-search__button
