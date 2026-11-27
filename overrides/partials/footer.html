@@ -13,11 +13,15 @@
 <footer class="md-footer tw-footer">
   <div class="tw-footer__inner md-grid">
     <a class="tw-footer__brand" href="{{ home }}" aria-label="{{ config.site_name }}">
-      <img src="{{ config.theme.logo | url }}" alt="">
+      <img src="{{ 'assets/logo-white.png' | url }}" alt="">
       <span>{{ tw.t("help_center") }}</span>
     </a>
     <ul class="tw-footer__links">
-      <li>© {{ build_date_utc.year }} Training Workx</li>
+      <li>
+        {#- The year of the last build, replaced by the current year in the browser so it never goes out of date -#}
+        © <span class="tw-year">{{ build_date_utc.year }}</span> Training Workx
+        <script>document.currentScript.previousElementSibling.textContent = new Date().getFullYear();</script>
+      </li>
       {% if config.extra.main_website %}
         <li>
           <a href="{{ config.extra.main_website }}" target="_blank" rel="noopener">

@@ -79,33 +79,56 @@ document.addEventListener("DOMContentLoaded", function ()
     wrapper.className = "custom-language-switcher";
 
     wrapper.innerHTML = `
-        <button class="custom-language-button" type="button" aria-label="${current.name}">
+        <button class="custom-language-button" type="button" aria-haspopup="true" aria-expanded="false" aria-label="${current.name}">
             ${current.flag()}
+            <span class="custom-language-code">${current.code.toUpperCase()}</span>
+            <span class="tw-icon tw-icon--chevron-down custom-language-chevron" aria-hidden="true"></span>
         </button>
 
         <div class="custom-language-menu">
-            ${languages.map(l => `<a href="${urlFor(l)}">${l.flag()}${l.name}</a>`).join("")}
+            ${languages.map(l => `<a href="${urlFor(l)}" hreflang="${l.code}" lang="${l.code}"${l === current ? ' class="active" aria-current="true"' : ""}>
+                ${l.flag()}<span>${l.name}</span>${l === current ? '<span class="tw-icon tw-icon--check custom-language-check" aria-hidden="true"></span>' : ""}
+            </a>`).join("")}
         </div>
     `;
 
+    // At the end of the header, after the search box
     const headerInner = document.querySelector(".md-header__inner");
-    const search = document.querySelector(".md-search");
+    const anchor = document.querySelector(".md-header__inner > .md-header__source");
 
-    if (headerInner && search)
+    if (headerInner && anchor)
     {
-        headerInner.insertBefore(wrapper, search);
+        headerInner.insertBefore(wrapper, anchor);
     } else if (headerInner)
     {
         headerInner.appendChild(wrapper);
     }
 
-    wrapper.addEventListener("mouseenter", function ()
+    // Opens on hover with a mouse, and on click/tap (for touch screens and the keyboard)
+    const button = wrapper.querySelector(".custom-language-button");
+    const canHover = window.matchMedia("(hover: hover)").matches;
+
+    function setOpen(open)
     {
-        wrapper.classList.add("open");
+        wrapper.classList.toggle("open", open);
+        button.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+
+    wrapper.addEventListener("mouseenter", () => { if (canHover) setOpen(true); });
+    wrapper.addEventListener("mouseleave", () => { if (canHover) setOpen(false); });
+    button.addEventListener("click", () => setOpen(canHover || !wrapper.classList.contains("open")));
+
+    document.addEventListener("click", function (event)
+    {
+        if (!wrapper.contains(event.target)) setOpen(false);
     });
 
-    wrapper.addEventListener("mouseleave", function ()
+    document.addEventListener("keydown", function (event)
     {
-        wrapper.classList.remove("open");
+        if (event.key === "Escape" && wrapper.classList.contains("open"))
+        {
+            setOpen(false);
+            button.focus();
+        }
     });
 });

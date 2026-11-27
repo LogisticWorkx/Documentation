@@ -55,6 +55,25 @@ function drawProgress(current, total)
     process.stdout.write(`\r[${bar}] ${percent}%  (${current}/${total})`);
 }
 
+// OneDrive or the virus scanner can briefly lock a file (for example while syncing a PDF from an earlier run),
+// which makes writing it fail with "UNKNOWN: unknown error, open". Try again a few times before giving up.
+async function writeFileWithRetry(file, data, attempts = 5)
+{
+    for (let attempt = 1; ; attempt++)
+    {
+        try
+        {
+            fs.writeFileSync(file, data);
+            return;
+        }
+        catch (error)
+        {
+            if (attempt >= attempts) throw error;
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+    }
+}
+
 (async () =>
 {
     fs.mkdirSync(docsPdfDir, { recursive: true });
@@ -99,8 +118,8 @@ function drawProgress(current, total)
             }
         });
 
-        fs.writeFileSync(path.join(docsPdfDir, `${slug}.pdf`), pdfBuffer);
-        fs.writeFileSync(path.join(sitePdfDir, `${slug}.pdf`), pdfBuffer);
+        await writeFileWithRetry(path.join(docsPdfDir, `${slug}.pdf`), pdfBuffer);
+        await writeFileWithRetry(path.join(sitePdfDir, `${slug}.pdf`), pdfBuffer);
     }
 
     await browser.close();

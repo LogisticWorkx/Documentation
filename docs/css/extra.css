@@ -1158,7 +1158,6 @@ body
     display: block;
     height: 1.9rem;
     width: auto;
-    filter: brightness(0) invert(1);
 }
 
 .tw-footer__brand span
@@ -1207,6 +1206,20 @@ body
 {
     width: .75rem;
     height: .75rem;
+}
+
+/* On phones the links can wrap, so space them instead of separating them with lines */
+@media screen and (max-width: 44.984375em)
+{
+    .tw-footer__links
+    {
+        gap: .4rem 1.2rem;
+    }
+
+    .tw-footer__links li + li::before
+    {
+        display: none;
+    }
 }
 
 /* ==========================================================================
