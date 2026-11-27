@@ -15,7 +15,6 @@ theme:
   features:
     - navigation.top
     - search.suggest
-    - search.highlight
 
 extra:
   # Linked in the footer
