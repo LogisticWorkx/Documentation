@@ -22,20 +22,28 @@
   {% set meta = page.meta %}
   <section class="tw-hero">
     <div class="tw-hero__inner md-grid">
-      <div class="tw-hero__text md-typeset">
-        {% if meta.eyebrow %}
-          <p class="tw-eyebrow">{{ meta.eyebrow }}</p>
-        {% endif %}
-        {{ page.content }}
+      <div class="tw-hero__text">
+        <div class="tw-hero__copy md-typeset">
+          {% if meta.eyebrow %}
+            <p class="tw-eyebrow">{{ meta.eyebrow }}</p>
+          {% endif %}
+          {{ page.content }}
+        </div>
 
-        {#- Opens the site search, the same as the search button in the header -#}
-        <label class="tw-search" for="__search">
+        {#-
+          Search field with the results right under it. It uses the site search (the one in the header), see
+          docs/assets/javascripts/home-search.js. Phones get the shorter placeholder, e.g. "Search...".
+        -#}
+        <form class="tw-search" role="search" autocomplete="off">
           {{ tw.icon("search") }}
-          <span class="tw-search__placeholder">{{ meta.search_placeholder }}</span>
-          {#- Shorter text for phones, e.g. "Search..." -#}
-          <span class="tw-search__placeholder tw-search__placeholder--short">{{ meta.search_button }}...</span>
-          <span class="tw-search__button">{{ meta.search_button }}</span>
-        </label>
+          <input class="tw-search__input" type="search" enterkeyhint="search" spellcheck="false"
+                 aria-label="{{ meta.search_button }}"
+                 placeholder="{{ meta.search_placeholder }}"
+                 data-placeholder="{{ meta.search_placeholder }}"
+                 data-placeholder-short="{{ meta.search_button }}...">
+          <button class="tw-search__button" type="submit">{{ meta.search_button }}</button>
+          <div class="tw-search__results"></div>
+        </form>
       </div>
       {% if meta.hero_image %}
         <div class="tw-hero__media">
@@ -44,26 +52,7 @@
       {% endif %}
     </div>
   </section>
-  <script>
-    // Open the site search and put the cursor in it, so typing works right away
-    document.querySelectorAll(".tw-search").forEach(function (bar)
-    {
-      bar.addEventListener("click", function (event)
-      {
-        var toggle = document.getElementById("__search");
-        var input = document.querySelector(".md-search__input");
-        if (!toggle || !input) return;
-
-        event.preventDefault();
-        if (!toggle.checked)
-        {
-          toggle.checked = true;
-          toggle.dispatchEvent(new Event("change"));
-        }
-        input.focus();
-      });
-    });
-  </script>
+  <script src="{{ 'assets/javascripts/home-search.js' | url }}" defer></script>
 {% endblock %}
 
 {% block content %}
