@@ -1,0 +1,68 @@
+{#-
+  Texts used by the header, footer and article pages, per language. Import with
+    {% import "partials/tw-labels.html" as tw with context %}
+  and use as {{ tw.t("help_center") }}. A missing translation falls back to English.
+  The homepage texts are in the front matter of docs/<language>/index.md instead.
+-#}
+{% set strings = {
+  "en": {
+    "pdf": "PDF",
+    "help_center": "Help Center",
+    "website": "Website",
+    "support": "Support",
+    "download_pdf": "Download page as PDF",
+    "previous": "Previous article",
+    "next": "Next article",
+    "breadcrumbs": "Breadcrumbs"
+  },
+  "nl": {
+    "pdf": "PDF",
+    "help_center": "Help Center",
+    "website": "Website",
+    "support": "Support",
+    "download_pdf": "Download pagina als PDF",
+    "previous": "Vorig artikel",
+    "next": "Volgend artikel",
+    "breadcrumbs": "Kruimelpad"
+  },
+  "de": {
+    "pdf": "PDF",
+    "help_center": "Hilfecenter",
+    "website": "Website",
+    "support": "Support",
+    "download_pdf": "Seite als PDF herunterladen",
+    "previous": "Vorheriger Artikel",
+    "next": "Nächster Artikel",
+    "breadcrumbs": "Brotkrümelnavigation"
+  },
+  "fr": {
+    "pdf": "PDF",
+    "help_center": "Centre d'aide",
+    "website": "Site web",
+    "support": "Support",
+    "download_pdf": "Télécharger la page en PDF",
+    "previous": "Article précédent",
+    "next": "Article suivant",
+    "breadcrumbs": "Fil d'Ariane"
+  }
+} %}
+
+{% macro t(key) -%}
+  {%- set language = strings.get(config.theme.language) or strings["en"] -%}
+  {{- language.get(key) or strings["en"][key] -}}
+{%- endmacro %}
+
+{#- A page title from the navigation without the "1. " in front of it -#}
+{% macro clean_title(title) -%}
+  {%- set parts = title.split(". ", 1) -%}
+  {%- if parts | length == 2 and parts[0].isdigit() -%}
+    {{ parts[1] }}
+  {%- else -%}
+    {{ title }}
+  {%- endif -%}
+{%- endmacro %}
+
+{#- An outline icon from docs/assets/icons/, colored with the text color -#}
+{% macro icon(name) -%}
+  <span class="tw-icon tw-icon--{{ name }}" aria-hidden="true"></span>
+{%- endmacro %}

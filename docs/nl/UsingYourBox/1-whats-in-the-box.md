@@ -38,9 +38,7 @@ Een externe monitor kan worden aangesloten via de HDMI-ingang.
 
 Hierdoor kunnen andere mensen in de ruimte de trainingssessie op een groter scherm bekijken.
 
-![HDMI-ingang leeg](../assets/hdmi-empty.jpeg)
-
-![HDMI aangesloten](../assets/hdmi-pluggedin.jpeg)
+![HDMI-ingang leeg](../assets/hdmi-empty.jpeg) ![HDMI aangesloten](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

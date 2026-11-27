@@ -16,9 +16,7 @@ Stecken Sie den Koffer in eine Steckdose. Dadurch schalten sich der Koffer und d
 
 Wenn Sie möchten, können Sie jetzt mit dem HDMI-Kabel im Koffer einen Bildschirm anschließen. Stecken Sie das Kabel einfach in die rechte Ecke des Koffers. Der Bildschirm wird automatisch verbunden, wenn Sie den Spectator starten.
 
-![HDMI-Eingang leer](../assets/hdmi-empty.jpeg)
-
-![HDMI eingesteckt](../assets/hdmi-pluggedin.jpeg)
+![HDMI-Eingang leer](../assets/hdmi-empty.jpeg) ![HDMI eingesteckt](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

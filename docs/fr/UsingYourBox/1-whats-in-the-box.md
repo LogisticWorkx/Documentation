@@ -34,9 +34,7 @@ Chaque manette est équipée d'une dragonne pour éviter de la faire tomber pend
 Vous pouvez brancher un écran externe sur l'entrée HDMI.  
 Les autres personnes présentes dans la pièce peuvent ainsi suivre la session de formation sur un plus grand écran.
 
-![Entrée HDMI libre](../assets/hdmi-empty.jpeg)
-
-![Câble HDMI branché](../assets/hdmi-pluggedin.jpeg)
+![Entrée HDMI libre](../assets/hdmi-empty.jpeg) ![Câble HDMI branché](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

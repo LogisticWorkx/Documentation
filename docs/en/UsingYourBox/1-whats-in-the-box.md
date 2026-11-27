@@ -34,9 +34,7 @@ Each controller has a wrist strap to prevent dropping them during use.
 An external monitor can be connected using the HDMI input.  
 This allows other people in the room to watch the training session on a larger screen.
 
-![HDMI input empty](../assets/hdmi-empty.jpeg)
-
-![HDMI plugged in](../assets/hdmi-pluggedin.jpeg)
+![HDMI input empty](../assets/hdmi-empty.jpeg) ![HDMI plugged in](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

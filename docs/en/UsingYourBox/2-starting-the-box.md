@@ -16,9 +16,7 @@ Plug the box into a wall socket. This will turn on the box and the screen automa
 
 If you want to, you can now connect a screen using the HDMI cable in the box. Simply plug the cable into the right corner of the box. The screen will automatically connect when you start the spectator.
 
-![HDMI input empty](../assets/hdmi-empty.jpeg)
-
-![HDMI plugged in](../assets/hdmi-pluggedin.jpeg)
+![HDMI input empty](../assets/hdmi-empty.jpeg) ![HDMI plugged in](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

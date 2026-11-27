@@ -16,9 +16,7 @@ Branchez la valise sur une prise murale. La valise et l'écran s'allument alors 
 
 Si vous le souhaitez, vous pouvez maintenant brancher un écran à l'aide du câble HDMI fourni dans la valise. Il suffit de brancher le câble dans le coin droit de la valise. L'écran se connectera automatiquement au lancement du spectator.
 
-![Entrée HDMI libre](../assets/hdmi-empty.jpeg)
-
-![Câble HDMI branché](../assets/hdmi-pluggedin.jpeg)
+![Entrée HDMI libre](../assets/hdmi-empty.jpeg) ![Câble HDMI branché](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

@@ -34,9 +34,7 @@ Jeder Controller hat eine Handschlaufe, damit er während der Nutzung nicht heru
 Über den HDMI-Eingang kann ein externer Bildschirm angeschlossen werden.  
 So können andere Personen im Raum das Training auf einem größeren Bildschirm mitverfolgen.
 
-![HDMI-Eingang leer](../assets/hdmi-empty.jpeg)
-
-![HDMI eingesteckt](../assets/hdmi-pluggedin.jpeg)
+![HDMI-Eingang leer](../assets/hdmi-empty.jpeg) ![HDMI eingesteckt](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

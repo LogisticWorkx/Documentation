@@ -16,9 +16,7 @@ Sluit de koffer aan op een stopcontact. De koffer en het scherm worden dan autom
 
 Indien gewenst kunt u nu een scherm aansluiten met de HDMI-kabel in de koffer. Steek de kabel in de rechterhoek van de koffer. Het scherm wordt automatisch verbonden wanneer u de spectator start.
 
-![HDMI-ingang leeg](../assets/hdmi-empty.jpeg)
-
-![HDMI aangesloten](../assets/hdmi-pluggedin.jpeg)
+![HDMI-ingang leeg](../assets/hdmi-empty.jpeg) ![HDMI aangesloten](../assets/hdmi-pluggedin.jpeg)
 
 ---
 

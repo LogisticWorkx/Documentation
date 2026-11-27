@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% import "partials/tw-labels.html" as tw with context %}
+
+{#-
+  Fonts: Plus Jakarta Sans for headings and Inter for text, both as variable fonts so every weight is available
+  (Material's own font setting only loads 300, 400 and 700). They are applied in docs/css/extra.css.
+-#}
+{% block fonts %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Plus+Jakarta+Sans:wght@500..800&display=swap">
+{% endblock %}
+
+{#-
+  Search only the pages of this language. Every language except the default one is in a folder named after it
+  (/nl/, /de/, /fr/) with its own search index, see hooks/search_per_language.py. Material loads the index and
+  resolves the result links from "base", so point that to the language's folder.
+-#}
+{% block config %}
+  {{ super() }}
+  {% if page and page.url.startswith(config.theme.language ~ "/") %}
+    <script>
+      (function ()
+      {
+        var element = document.getElementById("__config");
+        var settings = JSON.parse(element.textContent);
+        settings.base = settings.base + "/{{ config.theme.language }}/";
+        element.textContent = JSON.stringify(settings);
+      })();
+    </script>
+  {% endif %}
+{% endblock %}
+
+{#-
+  Article pages: breadcrumbs and a PDF download button above the article, previous/next article below it.
+  The PDFs are made by generate-pdfs.js, named after the page's path (e.g. nl-usingyourbox-1-whats-in-the-box.pdf).
+-#}
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    {% if page.parent %}
+      {% set pdf = "assets/pdfs/" ~ page.url.strip("/").replace("/", "-").lower() ~ ".pdf" %}
+      <div class="tw-article-bar">
+        <nav class="tw-breadcrumbs" aria-label="{{ tw.t('breadcrumbs') }}">
+          <ol>
+            {% if nav.homepage %}
+              <li><a href="{{ nav.homepage.url | url }}">{{ nav.homepage.title }}</a></li>
+            {% endif %}
+            {% for ancestor in page.ancestors | reverse %}
+              {% set first = ancestor.children | first %}
+              <li><a href="{{ first.url | url }}">{{ ancestor.title }}</a></li>
+            {% endfor %}
+            <li aria-current="page">{{ tw.clean_title(page.title) }}</li>
+          </ol>
+        </nav>
+        <a class="tw-print" href="{{ pdf | url }}" download title="{{ tw.t('download_pdf') }}" aria-label="{{ tw.t('download_pdf') }}">
+          {{ tw.icon("printer") }}
+          <span>{{ tw.t("pdf") }}</span>
+        </a>
+      </div>
+    {% endif %}
+
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {#- The section of the page above its title, e.g. "USING YOUR BOX" -#}
+        {% if page.parent %}
+          <p class="tw-eyebrow">{{ page.parent.title }}</p>
+        {% endif %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+
+    {% if page.parent and (page.previous_page or page.next_page) %}
+      <nav class="tw-pager">
+        {% if page.previous_page %}
+          <a class="tw-pager__link tw-pager__link--prev" href="{{ page.previous_page.url | url }}">
+            {{ tw.icon("arrow-left") }}
+            <span>
+              <span class="tw-pager__label">{{ tw.t("previous") }}</span>
+              <span class="tw-pager__title">{{ tw.clean_title(page.previous_page.title) }}</span>
+            </span>
+          </a>
+        {% endif %}
+        {% if page.next_page %}
+          <a class="tw-pager__link tw-pager__link--next" href="{{ page.next_page.url | url }}">
+            <span>
+              <span class="tw-pager__label">{{ tw.t("next") }}</span>
+              <span class="tw-pager__title">{{ tw.clean_title(page.next_page.title) }}</span>
+            </span>
+            {{ tw.icon("arrow-right") }}
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
+  </div>
+{% endblock %}

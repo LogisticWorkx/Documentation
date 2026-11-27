@@ -1,0 +1,33 @@
+{#-
+  Site footer (replaces Material's footer; the previous/next article links are above it, see overrides/main.html).
+-#}
+{% import "partials/tw-labels.html" as tw with context %}
+{% set home = config.extra.homepage | d(nav.homepage.url, true) | url %}
+
+{#- The "Need support?" page of this language -#}
+{% set support = namespace(page=None) %}
+{% for item in nav.pages if item.file.src_uri.endswith("Troubleshooting/5-need-support.md") %}
+  {% set support.page = item %}
+{% endfor %}
+
+<footer class="md-footer tw-footer">
+  <div class="tw-footer__inner md-grid">
+    <a class="tw-footer__brand" href="{{ home }}" aria-label="{{ config.site_name }}">
+      <img src="{{ config.theme.logo | url }}" alt="">
+      <span>{{ tw.t("help_center") }}</span>
+    </a>
+    <ul class="tw-footer__links">
+      <li>© {{ build_date_utc.year }} Training Workx</li>
+      {% if config.extra.main_website %}
+        <li>
+          <a href="{{ config.extra.main_website }}" target="_blank" rel="noopener">
+            {{ tw.t("website") }} {{ tw.icon("arrow-up-right") }}
+          </a>
+        </li>
+      {% endif %}
+      {% if support.page %}
+        <li><a href="{{ support.page.url | url }}">{{ tw.t("support") }}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</footer>

@@ -2,13 +2,26 @@ site_name: Training Workx Help Center
 
 theme:
   name: material
+  # Our own templates (homepage, header, footer, article layout), see the overrides folder
+  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/icon.png
+  # The fonts are loaded in overrides/main.html
+  font: false
+  # The colors are set in docs/css/extra.css
   palette:
     primary: white
-    
+    accent: custom
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra:
+  # Linked in the footer
+  main_website: https://www.trainingworkx.com
+
 extra_javascript:
-  - assets/javascripts/print-button.js
   - assets/javascripts/language-flag.js
 
 plugins:
@@ -129,6 +142,8 @@ plugins:
 # fail on Windows with "Errno 22 Invalid argument". See hooks/copy_once.py.
 hooks:
   - hooks/copy_once.py
+  # Search only finds pages in the language you're reading. See hooks/search_per_language.py.
+  - hooks/search_per_language.py
 
 extra_css:
   - css/extra.css

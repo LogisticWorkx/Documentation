@@ -1,0 +1,120 @@
+{% extends "main.html" %}
+
+{% import "partials/tw-labels.html" as tw with context %}
+
+{#-
+  Homepage, used by the index.md of each language (template: home.html in its front matter).
+
+  The heading and intro come from the page's own Markdown, the other texts from its front matter. The category
+  cards are built from the navigation in mkdocs.yml, so a section added there shows up here too, already translated.
+-#}
+
+{#- Icon per navigation section, by the section's folder in docs/<language>/ -#}
+{% set section_icons = {
+  "UsingYourBox": "box",
+  "TrainingInVR": "vr-headset",
+  "TrainingPortal": "monitor",
+  "InstallationWithoutBox": "download",
+  "Troubleshooting": "wrench"
+} %}
+
+{% block hero %}
+  {% set meta = page.meta %}
+  <section class="tw-hero">
+    <div class="tw-hero__inner md-grid">
+      <div class="tw-hero__text md-typeset">
+        {% if meta.eyebrow %}
+          <p class="tw-eyebrow">{{ meta.eyebrow }}</p>
+        {% endif %}
+        {{ page.content }}
+
+        {#- Opens the site search, the same as the search button in the header -#}
+        <label class="tw-search" for="__search">
+          {{ tw.icon("search") }}
+          <span class="tw-search__placeholder">{{ meta.search_placeholder }}</span>
+          <span class="tw-search__button">{{ meta.search_button }}</span>
+        </label>
+      </div>
+      {% if meta.hero_image %}
+        <div class="tw-hero__media">
+          <img src="{{ meta.hero_image | url }}" alt="{{ meta.hero_image_alt or '' }}">
+        </div>
+      {% endif %}
+    </div>
+  </section>
+  <script>
+    // Open the site search and put the cursor in it, so typing works right away
+    document.querySelectorAll(".tw-search").forEach(function (bar)
+    {
+      bar.addEventListener("click", function (event)
+      {
+        var toggle = document.getElementById("__search");
+        var input = document.querySelector(".md-search__input");
+        if (!toggle || !input) return;
+
+        event.preventDefault();
+        if (!toggle.checked)
+        {
+          toggle.checked = true;
+          toggle.dispatchEvent(new Event("change"));
+        }
+        input.focus();
+      });
+    });
+  </script>
+{% endblock %}
+
+{% block content %}
+  {% set meta = page.meta %}
+  {% set descriptions = meta.sections or {} %}
+
+  <div class="tw-home">
+    <h2 class="tw-home__title">{{ meta.explore_title }}</h2>
+    <div class="tw-cards">
+      {% for section in nav if section.children %}
+        {% set first = section.children | first %}
+        {% set key = first.file.src_uri.split("/")[-2] %}
+        <a class="tw-card" href="{{ first.url | url }}">
+          <span class="tw-card__icon">{{ tw.icon(section_icons.get(key, "file-text")) }}</span>
+          <span class="tw-card__body">
+            <span class="tw-card__title">{{ section.title }}</span>
+            {% if descriptions[key] %}
+              <span class="tw-card__text">{{ descriptions[key] }}</span>
+            {% endif %}
+          </span>
+          {{ tw.icon("chevron-right") }}
+        </a>
+      {% endfor %}
+
+      {% if meta.support %}
+        {% for item in nav.pages if item.file.src_uri.endswith(meta.support.page) %}
+          <a class="tw-card" href="{{ item.url | url }}">
+            <span class="tw-card__icon">{{ tw.icon("message-circle") }}</span>
+            <span class="tw-card__body">
+              <span class="tw-card__title">{{ meta.support.title }}</span>
+              <span class="tw-card__text">{{ meta.support.text }}</span>
+            </span>
+            {{ tw.icon("chevron-right") }}
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    {% if meta.popular %}
+      <h2 class="tw-home__title">{{ meta.popular_title }}</h2>
+      <ul class="tw-list">
+        {% for src in meta.popular %}
+          {% for item in nav.pages if item.file.src_uri.endswith(src) %}
+            <li>
+              <a href="{{ item.url | url }}">
+                {{ tw.icon("file-text") }}
+                <span class="tw-list__title">{{ tw.clean_title(item.title) }}</span>
+                {{ tw.icon("chevron-right") }}
+              </a>
+            </li>
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endblock %}
