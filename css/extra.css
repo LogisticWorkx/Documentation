@@ -103,12 +103,14 @@ body
    Header
    ========================================================================== */
 
+/*
+  A solid background, no see-through blur: a backdrop-filter on the header would trap Material's full-screen
+  search (which lives inside the header) to the header's height, so on phones its results would be invisible.
+*/
 .md-header,
 .md-header--shadow
 {
-    background-color: rgba(255, 255, 255, .92);
-    -webkit-backdrop-filter: saturate(180%) blur(12px);
-    backdrop-filter: saturate(180%) blur(12px);
+    background-color: var(--tw-white);
     color: var(--tw-ink);
     box-shadow: none;
 }
@@ -383,6 +385,15 @@ body
 .custom-language-button .lang-flag
 {
     margin-right: .1rem;
+}
+
+/* Phones and tablets: hide the language switcher while the full-screen search is open, it would cover its buttons */
+@media screen and (max-width: 59.984375em)
+{
+    [data-md-toggle="search"]:checked ~ .md-header .custom-language-switcher
+    {
+        display: none;
+    }
 }
 
 @keyframes tw-pop
@@ -1241,7 +1252,6 @@ body
 
 .tw-hero
 {
-    overflow: hidden;
     background:
         radial-gradient(36rem 20rem at 80% 50%, rgba(255, 255, 255, .7), transparent 70%),
         linear-gradient(180deg, #efe7fd 0%, var(--tw-accent) 100%);
@@ -1262,13 +1272,13 @@ body
     text-align: left;
 }
 
-.md-typeset .tw-hero__text .tw-eyebrow
+.md-typeset.tw-hero__copy .tw-eyebrow
 {
     margin-bottom: .6rem;
     font-size: .66rem;
 }
 
-.md-typeset.tw-hero__text h1
+.md-typeset.tw-hero__copy h1
 {
     margin: 0 0 .35em;
     font-size: clamp(1.7rem, 3.6vw, 2.5rem);
@@ -1277,7 +1287,7 @@ body
     letter-spacing: -.035em;
 }
 
-.md-typeset.tw-hero__text h1 + p
+.md-typeset.tw-hero__copy h1 + p
 {
     margin: 0;
     color: var(--tw-text);
@@ -1316,9 +1326,10 @@ body
     }
 }
 
-/* The search bar, which opens the site search */
+/* The search field on the homepage, with its results right under it (see assets/javascripts/home-search.js) */
 .tw-search
 {
+    position: relative;
     display: flex;
     align-items: center;
     gap: .65rem;
@@ -1335,7 +1346,8 @@ body
     transition: border-color .2s, box-shadow .2s;
 }
 
-.tw-search:hover
+.tw-search:hover,
+.tw-search:focus-within
 {
     border-color: var(--tw-primary-border);
     box-shadow: 0 8px 24px -10px rgba(60, 30, 130, .25), 0 0 0 4px rgba(128, 83, 232, .12);
@@ -1348,52 +1360,87 @@ body
     color: var(--tw-primary);
 }
 
-.tw-search__placeholder
+.tw-search__input
 {
     flex: 1 1 auto;
     min-width: 0;
-    overflow: hidden;
-    color: var(--tw-muted);
+    padding: .45rem 0;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--tw-ink);
+    font: inherit;
     font-size: .75rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
-/* Phones show the short placeholder ("Search..."), larger screens the full one */
-.tw-search__placeholder--short
+.tw-search__input::placeholder
 {
-    display: none;
+    color: var(--tw-muted);
+    opacity: 1;
 }
 
-@media screen and (max-width: 44.984375em)
+.tw-search__input::-webkit-search-cancel-button,
+.tw-search__input::-webkit-search-decoration
 {
-    .tw-search__placeholder
-    {
-        display: none;
-    }
-
-    .tw-search__placeholder--short
-    {
-        display: block;
-    }
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .tw-search__button
 {
     flex: none;
     padding: .5rem 1.1rem;
+    border: none;
     border-radius: var(--tw-radius);
     background: var(--tw-primary);
     color: #ffffff;
+    font: inherit;
     font-size: .72rem;
     font-weight: 600;
     cursor: pointer;
     transition: background-color .15s;
 }
 
-.tw-search:hover .tw-search__button
+.tw-search__button:hover,
+.tw-search__button:focus-visible
 {
     background: var(--tw-primary-strong);
+}
+
+/* The results, under the search field. Material hides them outside the header, so show them here. */
+.tw-search__results
+{
+    display: none;
+    position: absolute;
+    top: calc(100% + .4rem);
+    left: 0;
+    right: 0;
+    z-index: 3;
+    text-align: left;
+    cursor: auto;
+}
+
+.tw-search--open .tw-search__results
+{
+    display: block;
+}
+
+.tw-search__results .md-search__output
+{
+    position: static;
+    opacity: 1;
+    border-radius: var(--tw-radius-lg);
+    background: var(--tw-white);
+    box-shadow: var(--tw-shadow), 0 0 0 1px var(--tw-border);
+}
+
+.tw-search__results .md-search__scrollwrap
+{
+    width: auto;
+    height: auto;
+    max-height: min(60vh, 28rem);
 }
 
 /* Section titles */
