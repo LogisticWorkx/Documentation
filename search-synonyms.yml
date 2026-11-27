@@ -1,0 +1,25 @@
+# Synonyms for the site search, per language (used by hooks/search_per_language.py when the site is built).
+#
+# Each group is one topic:
+#   words: how the pages talk about it. Pages that use one of these words are found with every word of the group.
+#   also:  other words people might search for. They find the pages above, but a page that happens to use one of
+#          these words for something else (like "area" in another sense) doesn't get linked to the topic.
+#
+# Write everything in lowercase; a word can also be a phrase ("play area"). Add a word with its plural if people
+# might search for that, the search doesn't know plurals.
+
+en:
+  - words: [guardian, boundary, play area]
+    also: [boundaries, border, edge, edges, grid, area, play space]
+
+nl:
+  - words: [guardian, grens, speelgebied, speelruimte]
+    also: [grenzen, rand, randen, vak, raster, gebied]
+
+de:
+  - words: [guardian, begrenzung, spielbereich]
+    also: [grenze, rand, raster, gitter, bereich, spielfläche]
+
+fr:
+  - words: [guardian, limite, zone de jeu]
+    also: [limites, bord, bordure, grille, zone, espace de jeu]
